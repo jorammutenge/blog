@@ -1,0 +1,21 @@
+---
+title: "To teach is to learn"
+author: '{{< var author >}}'
+date: '2025-02-19'
+---
+
+When it comes to knowledge acquisition, teaching is undoubtedly one of the most effective hacks I've come across. I've discovered that when I learn something for my own use, I often only understand it at a surface level. It's only when I aim to teach it to someone else that I truly grasp the material.  
+
+It's easy to believe something makes sense in your head when it actually doesn't. But when you go through the process of making the material understandable for someone else, you access deeper corners of your mind that you rarely reach. Teaching forces you to articulate concepts in your own words, thereby deepening your understanding. Remember:  
+
+> You can't teach if you don't learn, and you can't learn if you don't teach.  
+
+That's why whenever I learn something new, I try to teach it to someone else. I do this through [online video tutorials](https://www.udemy.com/user/joram-mutenge/) or blog posts. Sometimes, I simply explain it to my friends in casual conversations.  
+
+In a way, it's a selfish act because it solidifies my understanding of the concept. It's amazing how much additional insight you gain when you teach something.  
+
+Learning to teach also pushes you to explore the material more deeply than you normally would, as you don't want to have knowledge gaps in the topic you're explaining.  
+
+> To teach is to learn.  
+
+So if you want to fully understand what you're learning, approach it with the goal of teaching it to someone else.

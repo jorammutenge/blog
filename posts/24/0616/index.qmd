@@ -1,0 +1,24 @@
+---
+title: "Practice doesn't make perfect"
+author: "Joram Mutenge"
+date: "2024-06-16"
+---
+
+If practice truly makes perfect, we would be experts at things we do every day like talking. Very few people speak without using filler words, so we know that the practice we go through by talking every day does not help make us become experts at speaking.
+
+To be an expert at something, practice alone is not enough. You have to practice deliberately. When you perform deliberate practice, you're consciously aware of what you're doing, as opposed to doing it mindlessly. Thus when you repeat a task, you focus on ways of doing it better and efficiently.
+
+Take a mundane task like typing. If you are a knowledge worker or a student, you spend a lot of time typing. What’s shocking is that very few people can type 80 words per minute. Why? Because most people stick to their way of typing, even if it is the wrong way.
+
+::: {.gray-text .center-text}
+![knowledge worker typing](image.png){fig-align="center"}
+:::
+
+My friend in high school used to type with three fingers on each hand. When I told him he would type faster if he used all ten fingers, he replied, "I'm already used to doing it this way."
+
+Deliberately practicing typing entails positioning your fingers on the appropriate keys and noticing which keys you miss a lot so that you can focus on them and become better at accessing them. This approach can be applied to any task, not just typing.
+
+Practice doesn't make perfect, deliberate practice does. You only become an expert at doing a task when you focus on things you get wrong and then course correct as you continue to practice. My advice to you is:
+
+> Don't practice until you get it right, practice until you can't get it wrong.
+This will force you to think about what you're practicing and discover ways of doing it better.

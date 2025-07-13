@@ -1,0 +1,16 @@
+---
+title: 'Help your struggling two'
+author: '{{< var author >}}'
+date: '2024-07-12'
+categories: [book]
+---
+
+It's easy for smart people who have made it in life to forget about those who are struggling. This is common among smart, successful people who started from the bottom and now are at the top Why? Because they feel they deserve their success and that those who aren’t successful are just lazy.
+
+George Horace Lorimer in *Letters from a self-made Merchant to His Son* reminds us that:
+
+> For every person that the Lord makes smart enough to help themselves, He makes two who have to be helped.
+
+So, when your two people come to you for help, don't hesitate to help them out. Don't just tell them to work hard; success isn't just about hard work. It's a combination of hard work and luck.
+
+And while hard work may be intentional, luck is random. You may be lucky today and be unlucky tomorrow. Therefore, you should help those struggling just as you would like to be helped in your unlucky days.

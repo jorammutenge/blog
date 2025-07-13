@@ -1,0 +1,47 @@
+---
+title: 'Dream big, because dreams are free'
+author: '{{< var author >}}'
+date: '2024-09-10'
+---
+
+Zambia is unquestionably a beautiful country, but it is poverty-stricken. However, my aim in this article isn't to state the obvious. I want to make a contrarian case that some people will disagree with and find somewhat offensive.
+
+If you walked down any busy street in Zambia and randomly asked any person what their dream was, you'd learn that most people have dreams that, in the long run, don't add much value to them, let alone to the country. I call this *Small Dreams Disease (SDD)*. SDD is the biggest problem that prevents individual progress among many Zambians.
+
+Given that dreams are free, why do most Zambians have small dreams? We all know that you don't have to pay anything to increase the magnitude of your dreams. Dreams are free, yet many Zambians choose to dream small.
+
+> Dreams are free. Make them big!
+
+Consider people like Elon Musk, Richard Branson, or Jack Dorsey. Why do they have big dreams and we don't? They don't belong to a special species! Even though they're not Zambians, they're people like us, and if they can dream big, so can we.
+
+The opposing view might be that people with bigger dreams have them because they have the money to fund those dreams. What’s the point of having a big dream if you can’t even fund it? To that, I would respond that the ability to fund your dream should never limit how big you can dream.
+
+It bothers me that every Zambian who sells oranges doesn't have dreams of making orange juice and then selling that instead. Surely there's more money to be made in that. It's easier to scale an orange juice business than to scale a business selling oranges on a table at the corner of the road.
+
+Similarly, people who sell fritters should be iterative with their cooking process until they discover ingredients that make their fritters delicious. It's about having a unique recipe, which in turn gives you a competitive edge on the market. Now, that's dreaming big!
+
+If the majority of Zambians suffer from *small dreams disease*, what's the cure? There are three cures.
+
+*1 Exposure* is the cure. It's difficult for people to dream big if they haven't seen what dreaming big looks like. For most Zambians, having an executive position in a government institution is "the dream." It's no wonder most students only dream of becoming a doctor, a pilot, or a lawyer (and nowadays, even a politician). Why? Because they see these professions as being at the pinnacle of the career ladder. That's where the money is! Yet we know that the world has changed. More money can be made in software engineering, biotechnology, and other technology-related professions. Sadly, most Zambians are currently sleeping on these professions. Again, it comes back to exposure.
+
+> You can't be what you can't see.
+
+*2 Empowerment*, by which I don’t mean the government giving fertilizer to farmers or sending small amounts of money to a mobile money account of any Zambian with an NRC. What I mean is funding or investing in Zambian-led projects and businesses.
+
+Unfortunately, many banks in Zambia will only lend to people with money. In other words, the current Zambian culture tells the poor that they already have their fate and will remain in poverty. The beauty about the world we live in is that:
+
+> Rich people don't have a monopoly on good ideas.
+
+Poor people too can have good ideas — and if they have them, the government should empower them so they can turn those ideas into sustainable businesses.
+
+*3 Specialized tertiary education institutions*. As a country, we need learning institutions dedicated to specific fields. We should have a university specialized in technology so that any student with a passion for technology knows where to enroll.
+
+Having students with similar passions interact in one place fosters innovation. In such a place, they can inspire each other with their unique ideas, and from there new and great ideas emerge. It's the phenomenon that James Altucher calls *idea sex*. When you allow different ideas to interact with one another, new and better ideas form.
+
+Stanford University is an example of such an institution in the USA. It’s no coincidence that the technology companies that have shaped the modern technological world like Google, Yahoo (and Tableau for data nerds like me) were born out of Stanford. Zambia needs its own Stanford -- a highly selective higher learning institution focused on technology. We already have bright kids in the country, now we need a place with the necessary resources so those kids can flourish.
+
+With such higher learning institutions in place, high school students can be motivated to work hard to get into those prestigious institutions. This will be a win not only for the hard-working and bright students but also for the country.
+
+I hope this message helps my fellow Zambians realize that dreams are free and that it's in their best interest to dream even bigger.
+
+> When we all have small dreams, we squander our country's capacity to develop with the death of a million cuts. Remember, we are a young country with vigor and fresh minds, let's put them to use!

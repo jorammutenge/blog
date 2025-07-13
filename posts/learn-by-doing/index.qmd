@@ -1,0 +1,29 @@
+---
+title: "Don't try to know too much before doing something"
+author: '{{< var author >}}'
+date: '2025-04-14'
+---
+
+As a teenager, I had a habit of over-researching everything before I took the first step. I believed that the more I knew in advance, the more prepared I’d be. I thought that preparation would guarantee success. But what it actually did was paralyze me. If I didn’t feel like I knew “enough,” I simply wouldn’t start. Looking back, I see that I wasn’t preparing but procrastinating, even thought it felt like I was being productive.
+
+A lot of people fall into this same trap: trying to gather every piece of information, every free online course, every tip, every potential pitfall *before* they act. It feels responsible. It feels smart. But often, it’s just fear wearing a mask.
+
+Here’s the truth: You’ll never know everything before you start. And more importantly, **you don’t need to**.
+
+Absolutely! Here's a more coherent and polished version of that paragraph with your additions woven in smoothly:
+
+There’s a powerful concept called **learning by doing**. It’s exactly what it sounds like -- gaining understanding through action. When you start **doing**, you engage with the material in a way that makes the learning stick. Yes, you’ll make mistakes -- but those mistakes become your best teachers. You build momentum, you see progress, and over time, things start to click. After all, practice makes perfect. As Cal Newport put it perfectly:
+
+> Let the work be the practice.
+
+In other words, the process of doing *is* the training. You don’t have to be perfect before you begin -- you just have to begin.
+
+Take coding, for example. Let’s say you want to learn Rust. You could spend weeks reading documentation, watching tutorials, and comparing resources. But none of that compares to writing your first line of code. Even if it’s wrong -- especially if it’s wrong -- you’re engaging with the material in a way that leads to actual learning.
+
+And here’s the beauty: you don’t have to choose between learning and doing. You can do both at the same time. Write code *while* watching a tutorial. Launch your blog *while* reading up on SEO. Record your first podcast *while* listening to others for inspiration. The two can -- and should -- go hand in hand.
+
+So stop waiting for the perfect moment when you “know enough.” That moment will never come. Remember:
+
+> The doing is what creates the knowing.
+
+Just start. Learn as you go. And trust that forward motion beats perfect planning every time.

@@ -1,0 +1,21 @@
+---
+title: 'Double down on your effort'
+author: '{{< var author >}}'
+date: '2024-07-06'
+---
+
+```{mermaid}
+
+graph LR
+    A[EFFORT] --> B[MORE EFFORT] --> C[EVEN MORE EFFORT]
+    C[EVEN MORE EFFORT] -->|"<span style='color: white;'>Repeat</span>"| A[EFFORT]
+
+```
+
+In business, many things are beyond your control. Sometimes the best product doesn't sell the most.
+
+The MacBook, for example, is the most sold computer yet we know that there are plenty of computers with better functionalities. Why don't these computers sell more than the MacBook? It comes down to what you can and cannot control.
+
+The manufacturers of these computer brands can’t control how many units they sell. What they can control is the effort they put into making their products great. And that includes the message they send out to potential buyers.
+
+> It turns out that in business, effort is the only thing that the entrepreneur has control over. When you put in the effort, the rest, more or less, takes care of itself.

@@ -1,0 +1,20 @@
+---
+title: 'Freemium is not a business strategy'
+author: '{{< var author >}}'
+date: '2024-08-21'
+categories: [business]
+---
+
+The classic mistake most entrepreneurs make is attributing the growth from offering their service or product for free to having an effective business strategy. Freemium as a business model doesn't work because sooner or later you will need to have revenue to run your business effectively.
+
+To avoid this mistake an entrepreneur must think of freemium as a marketing strategy rather than a business strategy.
+
+If you want your product or service to have massive adoption in the quickest way possible, you must offer that service or product for free. I agree with the assertion of the former CEO of Google, Eric Schmidt:
+
+> Free is the best price.
+
+That's why the freemium model is a marketing strategy that works best as it increases the number of people who use your product or service.
+
+Of course, when you start charging, not every one of your users will gladly pay for your product or service, but a few will realize the value of what you're offering and pay for it. Always remember:
+
+> Freemium is not a business strategy, it is a marketing strategy.

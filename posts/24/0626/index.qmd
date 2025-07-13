@@ -1,0 +1,25 @@
+---
+title: 'A familiar surprise is all you need'
+author: '{{< var author >}}'
+date: '2024-06-26'
+---
+
+Daniel Pink said that to sell is human. I don't disagree. The question is how can you sell successfully? To be successful at selling, you must consider the following points.
+
+1 *Make your product surprising, yet familiar*. When selling something familiar, you need to infuse an element of surprise. Conversely, when selling something surprising, you need to make it relatable.
+
+2 *Make what you're selling advanced, but not too advanced*. A product that is too advanced is not relatable to its target customers therefore it’s bound to be rejected.
+
+::: {.gray-text .center-text}
+![delighted by a familiar surprise](image.png){fig-align="center"}
+:::
+
+It's worth noting that selling isn't confined to tangible items; it also involves ideas.
+
+To effectively sell others on your ideas, begin by understanding their ethical principles and gradually lead them towards yours. Familiarly present your ideas. Avoid undue force that might make them uncomfortable. Do this first before you explain the differences between your ideas and theirs. Remember that:
+
+> All debates about ideas involve a form of ideological advertising.
+
+Also important to keep in mind is that human preferences are divided between two opposing forces: an attraction to new things and a fear of the unfamiliar. In a nutshell:
+
+> To sell something familiar you need to make it surprising; to sell something surprising you need to make it familiar.

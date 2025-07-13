@@ -1,0 +1,23 @@
+---
+title: 'The three groups of people in the world'
+author: '{{< var author >}}'
+date: '2024-11-12'
+---
+
+Having spent some time thinking about how the world works, I've come to believe there are three groups of people.
+
+1.  Those who make things.
+2.  Those who know about things that have been made.
+3.  Those who have no idea of the things made.
+
+Given a choice, we'd all want to be in the first group. Sadly, it’s the hardest category to be in because being in it requires talent. You must be good enough at your craft that you can make something new. Something so good other people want to use it.
+
+Being in the second group may not be impressive, but it isn’t bad either. Knowing about ways or tools that can make your life easier or better is essential for self-improvement. When you recognize a tool’s value and understand how it can enhance your life, you’ll be motivated to learn how to use it.
+
+By contrast, if you have no idea that such a tool exists, it will be impossible for you to learn how to use it. The main challenge of being in the third group is that even your thinking is limited. It’s difficult to understand alternative approaches if you’re unaware they exist.
+
+Consider a bicycle. The person who created the bicycle (Group 1) knows it can be used to travel from point A to point B more quickly. Similarly, someone aware of the bicycle’s existence (Group 2) can also use it to reach their destination faster. However, a person who doesn’t know about bicycles (Group 3) will be limited in the solutions they come up with to reach point B faster; they might think of starting the journey early or running the entire journey.
+
+The world is full of ways to make hard tasks easier, and countless tools—both physical and digital—that can simplify your life. If you’re not among those creating these tools or developing these methods, it’s essential to know about them. Being unaware of how the world works has no benefits. Strive to be in the first group, and if that’s not possible, aim for the second. But under no circumstances should you settle for being in the third group; it simply isn’t worth it.
+
+What group are you in?

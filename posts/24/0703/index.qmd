@@ -1,0 +1,13 @@
+---
+title: 'Winners of the posit table contest are announced!'
+author: '{{< var author >}}'
+date: '2024-07-03'
+---
+
+A few weeks ago, I participated in the Posit Table contest where I submitted [this table](https://www.jorammutenge.com/posts/061324/). I was proud of the work I did. Two days ago, the winners for various categories were announced. I wasn't one of the winners, but I received an [honorable mention here](https://posit.co/blog/2024-table-contest-winners/). That means a lot to me!
+
+Participating in the table contest was a great learning experience. I learned a lot about the `great tables` library and I’ll use it more often in my data analysis.
+
+Frankly, I wasn't surprised that Melissa Van Bussel won the contest. Her Spotify Hits table was well designed, incorporating multiple functionalities of the `great tables` library. Moreover, [she made a video](https://www.youtube.com/watch?v=27Njh1i9-oM) explaining how she created the table. Watching her videos advanced my knowledge of the library. Keep up the good work, Melissa!
+
+Congratulations to all the winners of the contest and those who received honorable mentions like I did. I hope you learned as much as I did participating in this contest. Carry on being a learning machine!

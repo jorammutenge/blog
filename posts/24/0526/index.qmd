@@ -1,0 +1,27 @@
+---
+title: "Are the links on your resume hurting your chances of landing an interview?"
+author: "Joram Mutenge"
+date: "2024-05-26"
+categories: [data]
+image: "image.jpg"
+---
+
+We can all agree that it's bad to have a resume that does not have links to projects or products you've built, particularly if you're seeking a job in a technical role.
+
+Just listing your projects and products is not very convincing; you must provide links that take a recruiter to them. After all, if the recruiter can't locate them on the web, do they even exist?
+
+The main question you must ask is:
+
+> What will people see when they click on the links on your resume?
+
+Do your links take them to your GitHub repo full of files containing incomprehensible lines of code? If this is the case, you've got some work to do.
+
+The links you provide on your resume might hurt your chances of landing a job interview more than they help them. Remember, a recruiter usually isn't a technical person, so when they see all those lines of code in your GitHub repos, that's all gibberish to them.
+
+As [Nick Singh](https://www.linkedin.com/in/nick-singh-tech/) advised that you must ensure that the links on your resume take people to something they can understand within a minute. This could be a dashboard, a functioning website, or a visualization. Your link shouldn't take people to a GitHub repo with 700 files.
+
+You could also post your visualizations and dashboards on Tableau Public for free. For narrative explanations, have links on your resume pointing to your articles about how you did some analysis on a particular dataset.
+
+Remember, recruiters aren't interested in your code on GitHub. They want to know if you have what it takes to solve a business problem. What you produce as the final product convinces them that you do, not whether you used *Pandas* or *Polars* to perform your analysis.
+
+My encouragement to you: click all the links on your resume and see where they take you. Then ask yourself if the destination of those links makes whatever is going on there easy for people to understand in a minute or less.

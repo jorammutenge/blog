@@ -1,0 +1,20 @@
+---
+title: "About"
+image: images/profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:50ttdz@gmail.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jorammutenge/
+    - icon: github
+      text: Github
+      href: https://github.com/jorammutenge
+
+---
+
+*Secret Intellectual*  
+Writing about anything that stimulates my mind and hopefully stimulates yours so we can be on the same intellectual footing.

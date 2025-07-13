@@ -1,0 +1,25 @@
+---
+title: "What you can learn from my experience watching The Social Network"
+author: '{{< var author >}}'
+date: '2025-01-18'
+categories: [movie]
+image: image.png
+---
+
+::: {.gray-text .center-text}
+![movie scene: a hackathon at Harvard](image.png){fig-align="center"}
+:::
+
+In 2014, as a young teenager, I watched *The Social Network* for the first time. I know the movie had come out four years earlier, but that's beside the point. The point is that I was psyched—like most teenagers who watched the movie. I, too, wanted to learn how to program computers so I could make millions of dollars like Mark Zuckerberg. Seeing Mark build a company from his Harvard dorm room was inspiring, and I remember thinking, *Well, if he can do it, so can I.*  
+
+Unfortunately, like many others who were psyched after seeing the movie, I didn’t act on that inspiration. It only lasted a few days, and I soon went back to my usual routine. I was living my life the same way I had before watching the movie. This is a problem many of us face—we hesitate to act on our inspiration. It's easy to feel inspired, but for most of us, that’s where the story ends. Naval Ravikant, one of the smartest philosophers alive today, reminds us:  
+
+> Inspiration is perishable. Act on it immediately.  
+
+After watching *The Social Network*, I was inspired. I wanted to become a coder so I could build an internet company like Mark Zuckerberg. The problem was that I didn’t follow through with that plan.  
+
+Here’s the lesson I want everyone to take away from this post:  
+
+> Wanting to become something is not the same as becoming, and you can only become when you start acting on your want.  
+
+Had I started learning to code in 2014, maybe by now you’d be using the services of an internet company I built. 

@@ -1,0 +1,76 @@
+---
+title: 'What were the popular names in the decade you were born?'
+author: '{{< var author >}}'
+date: '2024-07-09'
+categories: [technical]
+---
+
+I downloaded baby names from the [US Social Security](https://www.ssa.gov/open/data/) database and thought creating a chart showing the top 10 popular names in a decade would be fun for my Technical Tuesday post.
+
+To see the popular names in the decade you were born, click on any of the two options for your sex and use the slider to choose the decade. Numbers on the right of the bars indicate the number of babies with that name. For instance, in the 1920s over 368,000 female kids were named *Dorothy*.
+
+::: {.callout-tip title="My birth decade top 5 names!"}
+1. Michael
+1. Christopher
+1. Matthew
+1. Joshua
+1. Jacob
+
+I'll leave it to you to figure out what that decade is.
+:::
+
+```{ojs}
+// | code-fold: true
+babyNames = {
+  const babyData = await FileAttachment("baby.csv").csv({ typed: true });
+  return babyData.map(d => ({
+    Name: d.Name,
+    Sex: d.Sex,
+    Count: +d.Count,  // Convert Count to a number
+    Decade: +d.Decade // Convert Decade to a number
+  }));
+}
+
+viewof chooseSex = Inputs.radio(
+  Array.from(new Set((await babyNames).map(d => d.Sex))),
+  {label: 'Choose sex:', value: 'F'}
+);
+
+// Define the range slider input for choosing decade
+viewof pickDecade = Inputs.range(
+  d3.extent((await babyNames), d => d.Decade),
+  { label: 'Choose decade', step: 10, value: 1920 }
+);
+
+Plot.plot({
+  width: 800,
+  height: 600,
+  title: html`<h4>Top 10 popular names in the ${pickDecade}s`,
+  style: {background: "#000000", fontSize: 14, color: "#FFFFFF" },
+  marginLeft: 90,
+  x: { axis: null },
+  y: { label: null },
+  marks: [
+    Plot.barX((await babyNames).filter(d => d.Sex === chooseSex && d.Decade === pickDecade), 
+    {
+      x: "Count",
+      y: "Name",
+      sort: { y: "x", reverse: true,},
+      fill: '#FFFF00'
+    }),
+
+    Plot.text((await babyNames).filter(d => d.Sex === chooseSex && d.Decade === pickDecade),
+    {
+      text: d => `${d.Count} K`,
+      y: "Name",
+      x: "Count",
+      textAnchor: "end",
+      dx: -4,
+      fill: "#000000"
+    })
+  ]
+})
+
+```
+
+

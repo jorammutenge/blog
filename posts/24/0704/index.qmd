@@ -1,0 +1,25 @@
+---
+title: 'Different for the sake of it'
+author: '{{< var author >}}'
+date: '2024-07-04'
+---
+
+```{mermaid}
+graph LR
+    A[same] --> B[same] --> C[same] --> D{different}
+
+```
+
+Being different scares a lot of people. Think about the time when you were in middle school. Being different from your peers was the worst thing to happen to you.
+
+We all know how mean kids in middle school can be. You could be picked on for being tall or for being short. You could be picked on for being too clever or too well-behaved.
+
+Virtually anything you could ever be in middle school was subject to ridicule. It isn't surprising that as people grow up they tend to go out of their way to fit in. Standing out, as far as they're concerned, calls for attention and when you are the center of attention it's easier for people to pick on you.
+
+> Though comfortable, fitting in is dangerous because when you look the same as everybody else, you lose impact.
+
+If you want to be successful aspire to be different. To be the same as everybody else is to be average, and no one has ever succeeded by being average.
+
+Fitting in makes you invisible and when you're invisible you are unrecognizable. Awards don't go to unrecognizable people. If you want to win, you have to stand out. And the best way to stand out is to be different.
+
+Abandon the mentality of a middle school kid who always wants to fit in. Embrace your peculiar qualities because only then can you stand out and succeed.

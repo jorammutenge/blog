@@ -1,0 +1,29 @@
+---
+title: 'Why you should make your time love you'
+subtitle: 'A new approach to managing your time'
+author: '{{< var author >}}'
+date: '2024-09-03'
+from: markdown+emoji
+---
+
+<div style="font-size: 75px;">🕘</div>
+
+We all have 24 hours in a day, yet some people accomplish more amazing things than others. What is it with time that makes it an obedient servant to some people and a disobedient servant to others? Is it biased towards certain kinds of people? Are we even in control of our time, or is time in control of us?
+
+I've been a victim of time management or rather time mismanagement. Obsessed with productivity, I've tried all sorts of gimmicks and tricks to feed the productivity dragon, as Cal Newport would put it.
+
+Through this process, most of my time is spent on my habits. This, of course, can be great if those habits increase my productivity. I've learned that it's a rare individual who has such habits.
+
+Is there a formula for time management? Can time management be learned? Are some people naturally good at it and others naturally bad at it? How has Elon Musk accomplished so many things while many people in his age group haven't a fraction of his accomplishments?
+
+Well, maybe most of us just suck at managing time. Put another way:
+
+> We don't manage time. Time manages us.
+
+This may sound absurd but stick with me for a little bit. How many times have you told yourself that from now on you'll manage your time better; that you'll be more productive? I certainly have told myself that countless times, yet my mismanagement of time persists.
+
+Maybe it's not in your power alone to manage your time. Yes, it may be your time, but that time has to want to be managed. In other words, your time has to give you permission to manage it. You can't just boss it around and make it dance to your tune. If this were the case, more people would be more productive.
+
+Ultimately, it comes down to love—or more appropriately the affinity of time to its principal agent. Therefore the proper question is: *Does your time love you?* If it does, it will obey your rules, and managing it will be easy. If not, all your attempts to manage it will be futile.
+
+> Make your time love you and it will surrender to your management.

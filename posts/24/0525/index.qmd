@@ -1,0 +1,33 @@
+---
+title: "RIP data science projects"
+author: "Joram Mutenge"
+date: "2024-05-25"
+categories: [data]
+image: "image.jpg"
+---
+
+When I was a Data Science graduate student, the emphasis, when it comes to making yourself attractive to employers, was having a portfolio of projects.
+
+You could have a GitHub repo with your code, a few visualizations to back up your analysis, and you’d be good to go.
+
+But with the advent of generative AI, job seekers in the data science field are expected to do more than projects. Having a portfolio of projects no longer cuts it. It doesn’t make you stand out because everyone has one.
+
+So, what do you do to make yourself stand out? You create data science products.
+
+A few months ago, I spoke to a friend who was struggling to land interviews for data science jobs. I shared this contrarian belief that he needs to forget about projects and start focusing on products. He took me up on it, and in a month, he had three job interviews lined up.
+
+Not only does this approach work, but I think it’s the future. I felt validated when I learned that [Ken Jee](https://www.linkedin.com/in/kenjee/) host of the Ken’s Nearest Neighbors podcast, holds the same belief. This is what he said:
+
+> I've gone over this transformation where I used to be the biggest advocate of projects. I now tell people that data science projects are dead, and the evolution is now towards products.
+
+It was nice to see that a big voice in the data science space held the same contrarian belief as me.
+
+But what’s the difference between a project and a product?
+
+A *project* is a GitHub repo with an insight. By contrast, a *product* is something you can use and interact with — more importantly, it has an end user.
+
+At the moment, the data science job market is not very good because there’s more demand for jobs and less supply. This makes it extremely difficult to compete for the few jobs available, especially if you have a portfolio of projects like every other candidate.
+
+To make yourself stand out, create products that you can showcase and talk about. Remember, most recruiters are not technical, so they might not be impressed by your complicated code on GitHub.
+
+Forget projects. Products are the future. And those who catch the future early win. Be an early adopter of the future!

@@ -1,0 +1,28 @@
+---
+title: 'The two types of assholes in your working career'
+author: '{{< var author >}}'
+date: '2024-11-05'
+categories: [career]
+---
+
+Tony Fadell is a well-known figure in Silicon Valley, but what really put him on the map was the invention of the iPod. If you're into entrepreneurship, specifically product design, he's a good person to follow.
+
+A few days ago, he gave a talk at TechCrunch and I was intrigued by one idea he discussed which he called *the two types of assholes*. I was intrigued by this idea because I didn't know that there were *types* of assholes. As far as I was concerned, an asshole is just an asshole period.
+
+So what are these two types of assholes that Tony discussed?
+
+[**1. Ego-driven assholes**]{style="text-decoration: underline;"}  
+These are assholes who are difficult for the sake of pushing people down. They are the people who always want to be the smartest person in the room and feel threatened whenever someone smarter is around them. Therefore, they use their power to have their way and shut down everyone else's way. Ego-driven assholes tend to be resistant to feedback on their ideas and they also tend to be micro-managers. After all, it's their way or the highway.
+
+[**2. Mission-driven assholes**]{style="text-decoration: underline;"}  
+These are assholes who are too focused on the details and they grill you to make sure that you get those details right. They don't criticize the people, rather they criticize the people's work. Mission-driven assholes push you to make your work better, and they do it because it's in service of the mission to provide the customers with what they really need.
+
+It's important to differentiate between these two types of assholes. You want to work for a Mission-driven asshole but run a million miles away from the Ego-driven asshole. If your manager is keen on the details and pushes you to get them right, don't just think of them as an asshole. Think of them as a good type of asshole because that manager cares about your work and they want you to care just as much. And people who care about their work produce good results.
+
+You can watch the full talk here.
+
+{{< video https://www.youtube.com/watch?v=I-8NdMx-g60
+    title="Nest founder Tony Fadell on next generation of promising deep tech startups"
+    start="546"
+    aspect-ratio="21x9" 
+>}}

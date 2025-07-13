@@ -1,0 +1,33 @@
+---
+title: 'I keep learning new things from Jeff Bezos'
+author: '{{< var author >}}'
+date: '2024-12-06'
+categories: [business]
+---
+
+Jeff Bezos rarely gives interviews, but whenever he does one, I drop everything and listen. So when the YouTube algorithm showed me an interview of him with Andrew Ross Sorkin, you know exactly what I did. Yes, I dropped everything and played the interview.
+
+Every time I listen to Jeff Bezos, I learn something new. In this interview with Sorkin, I learned about the three roles of great leaders. This is what Bezos said:
+
+> Big leaders only have to do three things:  
+> (i) Identify the big ideas.  
+> (ii) Enforce tough execution against those big ideas.  
+> (iii) Grow the next generation of leaders.
+
+You and I may not see ourselves as big leaders yet, but we’d be doing ourselves a favor if we acted like this in our small leadership roles.
+
+Another lesson I learned from the interview is about artificial intelligence (AI). This is what Bezos said about it.
+
+> Modern AI is a horizontal enabling layer. It can be used to improve everything. It's like electricity.
+
+Many people believe AI has already integrated into countless products, but the truth is, we’re only at the beginning. Just as electricity powers nearly every modern device we use today, AI is poised to become just as ubiquitous. We’ve grown so accustomed to electricity that we hardly think about it, and future generations will likely feel the same about AI. They'll wonder, *"How did people ever live without it?"*
+
+To seize this golden era of AI, aim to create products that go beyond basic chatbots or single-purpose language models. Consider how electricity evolved—powering countless innovations that pioneers like Nikola Tesla and Thomas Edison could never have imagined. Let that inspire you as you design your next AI product, thinking boldly and creatively about what’s possible.
+
+Here's the Jeff Bezos interview if you would like to listen to it in its entirety. It starts playing at the point when Bezos talks about the roles of big leaders.
+
+{{< video https://www.youtube.com/watch?v=s71nJQqzYRQ
+    title="The Interview: From Amazon to Space"
+    start="3030"
+    aspect-ratio="21x10" 
+>}}

@@ -1,0 +1,15 @@
+---
+title: 'Nothing is as good as it seems'
+author: '{{< var author >}}'
+date: '2024-07-01'
+---
+
+It's okay to have expectations but don't keep them too high.
+
+> A mixture of low hopes and high expectations is a recipe for disaster; the converse is a recipe for joy.
+
+Higher expectations will almost always disappoint you because higher expectations are tough to meet. It's worth remembering that:
+
+> Nothing is as good as it seems, and nothing is as bad as it seems, but somewhere in between, reality falls.
+
+Don't expect to gain too much from an opportunity and don't be too afraid of the challenges you’ll encounter in your project. You can't know for sure how each of those will be, for reality has a way of surprising us all.

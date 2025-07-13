@@ -1,0 +1,24 @@
+---
+title: 'Is success taking too long to come to you?'
+author: '{{< var author >}}'
+date: '2024-07-17'
+image: image.png
+---
+
+For someone like me who's been working very hard to be successful, it can be very frustrating to realize that you are in your late 20s and have yet to achieve a modicum of success.  You could be reading this and thinking, “*Well I'm in my 30s or even 40s and have yet to see any success*.”
+
+I feel your pain. It's no fun hearing about all these teenagers On YouTube and TikTok making millions when you only have a few hundred dollars to your name.
+
+However, I was comforted when I looked at the data and noticed that success comes late to some people. The figure below shows some famous people and the age range in which they achieved mega success.
+
+```{mermaid}
+%%{init: {'theme': 'base','themeVariables': {'fontFamily': 'trebuchet ms',
+'fontSize':'15px', 'primaryTextColor':'#5e5c64', 'cScale0': '#26a269', 'cScaleLabel0': '#000000', 'cScale1': '#cdab8f',
+'cScaleLabel1': '#000000'}}}%%
+timeline
+    title Age range when they became mega successful
+    From age<br>40 - 49 : Vera Wang : Martha Stewart : Eric Yuan : Samuel L. Jackson : Sam Walton : Henry Ford : Momofuku Ando
+    From age<br>50 - 59 : Betty White : Taikichiro Mori : Ray Kroc : Arianna Huffington : Wally Blume
+```
+
+If you're already in your 30s, 40s, or even 50s, you can rest assured knowing you still have a chance to see that mega success. Don't stop grinding it out!

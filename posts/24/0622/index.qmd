@@ -1,0 +1,38 @@
+---
+title: 'What is sales?'
+author: '{{< var author >}}'
+date: '2024-06-22'
+---
+
+
+Selling is an important skill that we must all learn. Most people think of it as a talent; you either have it or you don't. I did too. Not anymore.
+
+Learning to sell is crucial because it doesn't matter how great your product is, if you want someone to remove money from their wallet, you need to be persuasive at pitching that product.
+
+::: {.gray-text .center-text}
+![couple in business](image2.png){fig-align="center"}
+:::
+
+I remember being envious of my friend who was extremely good at sales. I couldn't believe that he had to learn the skill like the rest of us because it came so effortless to him that he had me fooled it was a talent he was born with.
+
+But when I sat down with him and asked how he became so good at selling, he told me that he had no choice but to master the skill because his profession depended on it. My friend was a photographer.
+
+If your sales skills aren’t good,  making money as a photographer is hard. The photography business is very competitive. Even worse, the barrier to entry is low. Anyone can become a photographer if they have a decent digital camera—which is no longer expensive.
+
+Another challenge is that nowadays people no longer want their pictures taken by a photographer because they can do it with their smartphones. Only people who appreciate good photography and understand that a photo taken from an original camera is far superior to that taken from a smartphone would seek the services of a professional photographer. Unfortunately, those people aren't many. Thus, photographers must compete to do business with the few available customers.
+
+Despite all these challenges, my friend was able to make a living as a photographer. That's because he was good at convincing people to allow him to take their pictures.
+
+How did he do it? Well, rather than ask the boring question, "*Would you like me to take a picture of you?*" like other photographers, he would tell the potential customer, "*You’re dressed well today, and it’ll be a waste not to capture this outfit.*" He usually said this with a bright smile on his face. Additionally, he would suggest a few poses to the potential customer, which signaled that he was serious about taking that picture. His approach made it almost impossible for the potential customer to say no.
+
+::: {.gray-text .center-text}
+![young girl posing](image.png){fig-align="center"}
+:::
+
+My friend understood that:
+
+> Sales is simply the transfer of enthusiasm from one person to another.
+
+Whenever he engaged with a potential customer, my friend transferred his joy and excitement for photos to that customer who would initially not have been interested.
+
+The trick is not to ask your customers whether they want to buy your product, but to get them excited about your product--so excited that they'd regret not having it. That's exactly what my friend was doing. That's why he could make a living in a competitive business even though his fellow photographers were going broke.

@@ -1,0 +1,25 @@
+---
+title: "Acquired podcast host Ben reveals the secret source behind their massive success"
+author: '{{< var author >}}'
+date: '2024-12-14'
+---
+
+A few days ago, I had the privilege of attending the last LP call hosted by the *Acquired* podcast. For those unfamiliar with this podcast—what planet are you from? But seriously, it’s a masterpiece. I highly encourage you to listen to at least one episode; you’ll be hooked.
+
+Ben and David decided to host a casual chat with longtime listeners during this farewell call. Despite their incredible success with their podcast, it was heartwarming to see how personable and down-to-earth they both remain. During the Zoom call, fans shared their favorite episodes and offered constructive criticism and suggestions for improving the show, which Ben and David welcomed with open arms.
+
+I was fortunate enough to ask Ben and David a few questions. One of them was whether they ever imagined they’d achieve this level of success when they first started the podcast. Unsurprisingly, their answer was a resounding *no*—and I believe them. As a longtime listener, I could tell from the very beginning that they were driven purely by passion. Over time, that passion evolved into a business, allowing them to turn something they love into a living.
+
+I then asked Ben and David to share a lesson they’ve learned from covering great businesses that they’re currently applying to their own *Acquired* podcast. Ben answered by telling a story about the time he met Jeff Bezos. I had no idea that Ben and Jeff Bezos had ever met, and if I’m being honest, I felt a little jealous.
+
+Ben told Jeff that the *Acquired* audience has been doubling every year since the podcast started in 2015. Impressed by the numbers, Jeff quickly realized that this was no ordinary podcast and urged Ben to elaborate. Ben explained that they don’t release episodes regularly—typically only ten to twelve episodes per year. More importantly, Ben added that they’re completely obsessed with quality. Embedded in that exchange between Ben and Jeff is the playbook that has driven *Acquired* to massive success: “scarcity and quality.”
+
+Waiting for a new *Acquired* episode to drop can sometimes feel like being in limbo. But once the episode is out and you start listening, you truly feel that the wait was worth it. At least, that has been my experience with every new episode I’ve heard.
+
+It’s wonderful to see that Ben and David are finally receiving the recognition they deserve for their work on *Acquired*. Their success is well-earned, and I couldn’t be happier for them.
+
+Before wrapping up, I’d be remiss not to share my carve-out with you in true *Acquired* fashion. It’s this recent interview between Jeff Bezos and Andrew Ross Sorkin.
+
+{{< video https://www.youtube.com/watch?v=s71nJQqzYRQ title="The Interview: From Amazon to Space" start="3030" aspect-ratio="21x10" >}}
+
+I also wrote about what I learned from the interview in the article called [I keep learning new things from Jeff Bezos](https://www.jorammutenge.com/posts/learning-new-things-from-Jeff-Bezos/).
