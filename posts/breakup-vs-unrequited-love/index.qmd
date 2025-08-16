@@ -1,0 +1,61 @@
+---
+title: "Is a breakup more painful than unrequited love?"
+subtitle: "No it's not"
+author: '{{< var author >}}'
+date: 'August 16, 2025'
+toc: true
+toc-title: 'Sections'
+toc-location: right
+toc-depth: 3
+categories: [essay]
+---
+
+A few days ago, I stumbled upon a [reddit discussion](https://www.reddit.com/r/love/comments/1mm9hnr/which_one_is_more_painful_a_breakup_or_unrequited/) where a user asked the question: which one is more painful, a breakup or unrequited love? I've thought about this question a lot, and here's my take on it: unrequited love is more painful.
+
+To ensure the two pains we're comparing have equal weight, I'll only consider a breakup where you're the one being dumped. In short, you're still interested in continuing the relationship, but your partner wants to end it. They want nothing to do with you anymore, so they're calling it off. Now we have situations that are just as painful, yet I still think the pain that comes from unrequited love is unmatched.
+
+## Why is unrequited love so painful?
+
+When you're deeply into someone who doesn't love you back, all you see when you look at them is perfection. The fact that they're unattainable makes you blind to their shortcomings, and you tend to put them on a pedestal. Therefore, you're condemned to have strong feelings for this person -- feelings that will never be satisfied. It's like being burned by a fire you cannot put out.
+
+> There's something sickly about the pain that comes from wanting something you can't have.
+
+By contrast, when you're broken up with, it means you were once with that person. Being romantically close to someone entails knowing them on a deeper level. You'll be aware of their shortcomings as well as their annoying habits. No matter how painful the breakup may be, when you think about the bad things, it may give you some relief to think, *"maybe I dodged a bullet."*
+
+Also, when you're hurt by a breakup, you can blame the person who dumped you. But when you're hurt by unrequited love, you have no one to blame but yourself.
+
+## Pain from a breakup lessens with time
+
+Breakups are extremely painful in the early days, but their pain reduces with time. It's no wonder most people are able to move on from messy breakups -- they just need time. This is not the case with unrequited love. In fact, the pain often increases with the passage of time.
+
+With a breakup, you at least got to experience the other person. Even though you may be sad it ended, you can still be happy it happened and cherish the good memories, like the restaurants you visited together or the activities you shared. With unrequited love, none of this is possible. No matter what the two of you do together, you're still separated by the big dividing line that says, *"we can't be more than friends."*
+
+## I'm not a stranger to unrequited love
+
+Why am I convinced that unrequited love is more painful than a breakup? Because I've experienced it, and I wouldn't wish it on my worst enemy. I wrote about it in [this article](https://www.jorammutenge.com/posts/24/0609/index.html), in which I said:
+
+> Unrequited love is cancer of the soul.
+
+It eats you alive with every day that passes. And the more you see the other person, the worse the cancer becomes.
+
+## My college life was a series of unrequited loves
+
+In college, I experienced my fair share of unrequited love. Throughout my four years, I loved a total of 10 people, but none of them saw me as a worthy romantic partner. It wasn't a fun experience. It made me question if I was the problem, and in my attempt to answer that question, I wrote a two-part book series about the experience called [Unlaid](https://www.amazon.com/dp/B0B2WZJM1M/). Writing it was therapeutic enough to help me finish college.
+
+## Final thoughts
+
+It helps to think of the pain from a breakup and the pain from unrequited love as points on a sliding bar. On the left you have breakup pain, and on the right unrequited love pain. I loved the comment of the reddit user `Real-Tomorrow1368`, who said, *"oftentimes a breakup hurts the way it does because it becomes unrequited love."*
+
+```{mermaid}
+graph LR
+    A("Breakup") ---|sliding pain increase| B("Unrequited love")
+    
+    style A fill:#ffff00,stroke:#333,stroke-width:2px,color:#000,font-weight:bold
+    style B fill:#ff0000,stroke:#333,stroke-width:2px,color:#000,font-weight:bold
+
+```
+
+Returning to the sliding bar analogy, when the slide moves to the right, breakup pain increases. Sliding it further right increases the pain until it eventually turns into unrequited love. Put another way, unrequited love is more painful because the most hurtful breakups are the ones that morph into unrequited love.
+
+Have you experienced unrequited love? How did you cope with it? Let me know in an email.
+
