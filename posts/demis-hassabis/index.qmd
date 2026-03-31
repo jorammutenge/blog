@@ -1,0 +1,28 @@
+---
+title: "From my first million to demis hassabis"
+author: '{{< var author >}}'
+date: 'March 30, 2026'
+toc: true
+toc-title: 'Sections'
+toc-location: right
+toc-depth: 3
+categories: [essay]
+---
+
+I'm an avid listener of the podcast *My First Million*. I enjoy the banter between Sam and Shaan, and they share inspiring stories and lessons on entrepreneurship that expand my business knowledge.
+
+A few days ago, I listened to an episode in which Shaan recounted a documentary he had watched about Demis Hassabis. I already knew who Demis was, but I wasn’t aware there was a documentary about him. Hearing Shaan tell Demis’s story made me want to watch it, so I did.
+
+## The documentary
+
+*The Thinking Game* is the name of the documentary. What inspired me most was how singular Demis’s focus has been throughout his career. He wants to give machines intelligence that enables them to perform not just one task, but multiple tasks, much like humans. Put more simply, he wants machines to achieve artificial general intelligence (AGI).
+
+In his early teens, Demis began developing video games, which became his entry into artificial intelligence (AI). Throughout his career, he has used video games to improve his AI models. His consistency in working on the same problem has led to many breakthroughs, such as AlphaGo (the model that beat the world champion at the game of Go) and AlphaFold (a model that predicts the 3D structure of proteins). The company he leads, Google DeepMind, also invented the transformer, the technology behind LLMs like ChatGPT. Is it any wonder that he won the Nobel Prize in Chemistry in 2024?
+
+## Don't be a jumping rabbit
+
+A lesson I’ve taken from the documentary, and one I will strive to apply in my work, is to stay focused and stick with projects a little longer. One of the biggest distractions in the modern world is the lure of shiny new things. We start projects because we’re attracted to novelty, but once that novelty wears off, we move on to something else, even when the previous project is unfinished.
+
+I’ve realized that approaching projects this way makes me a jumping rabbit. I need to slow down and focus on one thing until I’ve truly mastered it. The upside is that I will have something to show for my efforts when the work is done. Focusing on a topic for a long time also means I’ll gain mastery, something people who jump from one topic to another can only dream of.
+
+This, of course, won’t be easy. The forces that pull us toward shiny new things are only getting stronger and more enticing. But that is no reason to give in, because nothing worth doing is easy.

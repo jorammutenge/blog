@@ -9,8 +9,39 @@
 <link>https://www.jorammutenge.com/</link>
 <atom:link href="https://www.jorammutenge.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.24</generator>
-<lastBuildDate>Fri, 19 Sep 2025 05:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Mon, 30 Mar 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>From my first million to demis hassabis</title>
+  <dc:creator>{{&lt; var author &gt;}}</dc:creator>
+  <link>https://www.jorammutenge.com/posts/demis-hassabis/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’m an avid listener of the podcast <em>My First Million</em>. I enjoy the banter between Sam and Shaan, and they share inspiring stories and lessons on entrepreneurship that expand my business knowledge.</p>
+<p>A few days ago, I listened to an episode in which Shaan recounted a documentary he had watched about Demis Hassabis. I already knew who Demis was, but I wasn’t aware there was a documentary about him. Hearing Shaan tell Demis’s story made me want to watch it, so I did.</p>
+<section id="the-documentary" class="level2">
+<h2 class="anchored" data-anchor-id="the-documentary">The documentary</h2>
+<p><em>The Thinking Game</em> is the name of the documentary. What inspired me most was how singular Demis’s focus has been throughout his career. He wants to give machines intelligence that enables them to perform not just one task, but multiple tasks, much like humans. Put more simply, he wants machines to achieve artificial general intelligence (AGI).</p>
+<p>In his early teens, Demis began developing video games, which became his entry into artificial intelligence (AI). Throughout his career, he has used video games to improve his AI models. His consistency in working on the same problem has led to many breakthroughs, such as AlphaGo (the model that beat the world champion at the game of Go) and AlphaFold (a model that predicts the 3D structure of proteins). The company he leads, Google DeepMind, also invented the transformer, the technology behind LLMs like ChatGPT. Is it any wonder that he won the Nobel Prize in Chemistry in 2024?</p>
+</section>
+<section id="dont-be-a-jumping-rabbit" class="level2">
+<h2 class="anchored" data-anchor-id="dont-be-a-jumping-rabbit">Don’t be a jumping rabbit</h2>
+<p>A lesson I’ve taken from the documentary, and one I will strive to apply in my work, is to stay focused and stick with projects a little longer. One of the biggest distractions in the modern world is the lure of shiny new things. We start projects because we’re attracted to novelty, but once that novelty wears off, we move on to something else, even when the previous project is unfinished.</p>
+<p>I’ve realized that approaching projects this way makes me a jumping rabbit. I need to slow down and focus on one thing until I’ve truly mastered it. The upside is that I will have something to show for my efforts when the work is done. Focusing on a topic for a long time also means I’ll gain mastery, something people who jump from one topic to another can only dream of.</p>
+<p>This, of course, won’t be easy. The forces that pull us toward shiny new things are only getting stronger and more enticing. But that is no reason to give in, because nothing worth doing is easy.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>essay</category>
+  <guid>https://www.jorammutenge.com/posts/demis-hassabis/</guid>
+  <pubDate>Mon, 30 Mar 2026 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Give people your advice and then follow it</title>
   <dc:creator>{{&lt; var author &gt;}}</dc:creator>
@@ -778,45 +809,6 @@ Tip
  ]]></description>
   <guid>https://www.jorammutenge.com/posts/studying-abroad/</guid>
   <pubDate>Mon, 03 Feb 2025 06:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>The smartest dumb kid in a dumb class</title>
-  <dc:creator>{{&lt; var author &gt;}}</dc:creator>
-  <link>https://www.jorammutenge.com/posts/smartest-dumb-kid/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I grew up in a shanty compound and went to primary school in the ghetto. Most of the kids at my primary school were not book smart. They didn’t care about education and were only there because their parents wanted them to be.</p>
-<p>While there, I thought I was a smart kid because I was always at the top of the class. However, when I was selected to attend a prestigious Catholic school for 8th grade, I met kids who were truly smart. My erroneous belief that I was smart was quickly corrected, and the truth was revealed:</p>
-<blockquote class="blockquote">
-<p>I was the smartest dumb kid in a dumb class.</p>
-</blockquote>
-<p>The kids at this Catholic school were intelligent, well-spoken, and knowledgeable about the world. I felt like an imposter who had no business being there. At one point, I even considered leaving the school because I missed the feeling of being considered the “smartest kid.”</p>
-<p>However, instead of giving in to despair, I saw this as a challenge to better myself. I started studying hard to reach the level of the other kids at my new school. Within a few months, I managed to catch up.</p>
-<p>When you’re surrounded by unsuccessful people, your meager success may seem extraordinary. It’s only when you’re exposed to people who are more successful that you realize you’re not as accomplished as you thought.</p>
-<blockquote class="blockquote">
-<p>The best hack to improve yourself is to surround yourself with people better than you.</p>
-</blockquote>
-<p>The problem is that most of us despise the feeling of not being the best. That’s why so many people choose to spend time with others who praise them for being the best in the group.</p>
-<blockquote class="blockquote">
-<p>If you want to improve yourself, you need to step out of your comfort zone and seek new challenges. Your attempts to overcome those challenges will become the training ground for self-improvement.</p>
-</blockquote>
-<p>In other words, if you want to be smart, surround yourself with smart people. If you want to be successful, surround yourself with successful people. If you want to be physically strong, surround yourself with people who hit the gym regularly.</p>
-<p>However, you should be warned: this may not be a reliable recipe for internal happiness. Naval Ravikant once quipped:</p>
-<blockquote class="blockquote">
-<p>If you want to be unhappy, surround yourself with people more successful than you. If you want to be happy, surround yourself with people less successful than you.</p>
-</blockquote>
-<p>The message here is that being surrounded by people more successful than you can leave you feeling inadequate. That feeling can be disheartening for many and may lead to unhappiness. But I encourage you to take advantage of that discomfort and use it as fuel to push yourself to become better.</p>
-<p>On the other hand, when you’re surrounded by people less successful than you, they will praise you for your achievements, boosting your ego. My fear is that this can delude you into thinking you’ve “made it,” when in reality, you are just the smartest dumb kid in a dumb class.</p>
-
-
-
- ]]></description>
-  <guid>https://www.jorammutenge.com/posts/smartest-dumb-kid/</guid>
-  <pubDate>Sun, 26 Jan 2025 06:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
