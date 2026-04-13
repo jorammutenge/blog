@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,6 +11,9 @@
 
 <title>Why loops are frowned upon in data science – Joram Mutenge</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -74,14 +77,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-523c6f62b46b97e25e3633e1f3acd20e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-41bb3de57b6994066e94f43cc7975dba.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-523c6f62b46b97e25e3633e1f3acd20e.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-22b768d323dd5f99de29808ae03c2fa5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-ea5ba0982766e27737f951941b6182c4.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-22b768d323dd5f99de29808ae03c2fa5.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-de8b8a2a3e24f44a0831df91ff1d5d90.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-9e75d4b29017604fe036664219c6a162.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-de8b8a2a3e24f44a0831df91ff1d5d90.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-9a46f90ec1ea6c670dd9058764f39da0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-5f2f6f3c871575a8ba52949bac79cce9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-9a46f90ec1ea6c670dd9058764f39da0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -320,7 +323,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <span class="menu-text">Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://podcasters.spotify.com/pod/show/50ttdz" target="_blank"> 
+    <a class="nav-link" href="https://open.spotify.com/show/1An3ofQtg1XsvdYqwrY4Lq" target="_blank"> 
 <span class="menu-text">Podcast</span></a>
   </li>  
   <li class="nav-item">
@@ -437,13 +440,13 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 </div>
 <p>We can do the task show in the flowchart above manually, which won’t be much work because our list only has 8 agencies. But you can imagine how tedious this may be if we had a hundred or a thousand agencies. Fortunately, we can use a <code>for loop</code> to do this tedious work.</p>
 <div id="07cb9a25" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>agencies <span class="op">=</span> [<span class="st">'cia'</span>, <span class="st">'fbi'</span>, <span class="st">'nsa'</span>, <span class="st">'epa'</span>, <span class="st">'irs'</span>, <span class="st">'dhs'</span>, <span class="st">'faa'</span>, <span class="st">'doe'</span>]</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>agencies <span class="op">=</span> [<span class="st">'cia'</span>, <span class="st">'fbi'</span>, <span class="st">'nsa'</span>, <span class="st">'epa'</span>, <span class="st">'irs'</span>, <span class="st">'dhs'</span>, <span class="st">'faa'</span>, <span class="st">'doe'</span>]</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Loop through the list and convert each agency to uppercase</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(agencies)):</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    agencies[i] <span class="op">=</span> agencies[i].upper()</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>agencies</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>agencies</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 <pre><code>['CIA', 'FBI', 'NSA', 'EPA', 'IRS', 'DHS', 'FAA', 'DOE']</code></pre>
 </div>
@@ -455,17 +458,17 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="dataset">Dataset</h3>
 <p>The dataset below shows the quantity of units of some sales. Our task is to create a new column <code>Qty_plus_20_pct</code> that increases quantity values by 20%.</p>
 <div id="4d110840" class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>(pd.read_parquet(<span class="ss">f"</span><span class="sc">{</span>Path(<span class="st">'../../../'</span>)<span class="sc">}</span><span class="ss">/datasets/sales_total_2018.parquet"</span>)</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>         [[<span class="st">'name'</span>,<span class="st">'quantity'</span>]]</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>         )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>         )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="2">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -475,57 +478,57 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
+<th data-quarto-table-cell-role="th">0</th>
 <td>Barton LLC</td>
 <td>39</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
+<th data-quarto-table-cell-role="th">1</th>
 <td>Trantow-Barrows</td>
 <td>-1</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
+<th data-quarto-table-cell-role="th">2</th>
 <td>Kulas Inc</td>
 <td>23</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
+<th data-quarto-table-cell-role="th">3</th>
 <td>Kassulke, Ondricka and Metz</td>
 <td>41</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
+<th data-quarto-table-cell-role="th">4</th>
 <td>Jerde-Hilpert</td>
 <td>6</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">...</td>
+<th data-quarto-table-cell-role="th">...</th>
 <td>...</td>
 <td>...</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1495</td>
+<th data-quarto-table-cell-role="th">1495</th>
 <td>Fritsch, Russel and Anderson</td>
 <td>12</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1496</td>
+<th data-quarto-table-cell-role="th">1496</th>
 <td>Frami, Hills and Schmidt</td>
 <td>37</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1497</td>
+<th data-quarto-table-cell-role="th">1497</th>
 <td>Stokes LLC</td>
 <td>14</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1498</td>
+<th data-quarto-table-cell-role="th">1498</th>
 <td>Pollich LLC</td>
 <td>3</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1499</td>
+<th data-quarto-table-cell-role="th">1499</th>
 <td>Will LLC</td>
 <td>38</td>
 </tr>
@@ -541,19 +544,19 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="looping">Looping</h3>
 <p>The following piece of code loops through the dataframe. Writing code like this to do a mathematical operation would be considered normal in computer science, however, in data science, it would be a BIG no-no. Software engineers are used to writing loops in their code, which is why they find writing data science code less intuitive.</p>
 <div id="02961987" class="cell" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>sales <span class="op">=</span> (pd.read_parquet(<span class="ss">f"</span><span class="sc">{</span>Path(<span class="st">'../../../'</span>)<span class="sc">}</span><span class="ss">/datasets/sales_total_2018.parquet"</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>sales <span class="op">=</span> (pd.read_parquet(<span class="ss">f"</span><span class="sc">{</span>Path(<span class="st">'../../../'</span>)<span class="sc">}</span><span class="ss">/datasets/sales_total_2018.parquet"</span>)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>         [[<span class="st">'name'</span>,<span class="st">'quantity'</span>]]</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>         )</span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(sales)):</span>
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    sales.at[i, <span class="st">'Qty_plus_20_pct'</span>] <span class="op">=</span> sales.at[i, <span class="st">'quantity'</span>] <span class="op">*</span> <span class="fl">1.20</span></span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>sales</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>sales</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="3">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -564,67 +567,67 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
+<th data-quarto-table-cell-role="th">0</th>
 <td>Barton LLC</td>
 <td>39</td>
 <td>46.8</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
+<th data-quarto-table-cell-role="th">1</th>
 <td>Trantow-Barrows</td>
 <td>-1</td>
 <td>-1.2</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
+<th data-quarto-table-cell-role="th">2</th>
 <td>Kulas Inc</td>
 <td>23</td>
 <td>27.6</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
+<th data-quarto-table-cell-role="th">3</th>
 <td>Kassulke, Ondricka and Metz</td>
 <td>41</td>
 <td>49.2</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
+<th data-quarto-table-cell-role="th">4</th>
 <td>Jerde-Hilpert</td>
 <td>6</td>
 <td>7.2</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">...</td>
+<th data-quarto-table-cell-role="th">...</th>
 <td>...</td>
 <td>...</td>
 <td>...</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1495</td>
+<th data-quarto-table-cell-role="th">1495</th>
 <td>Fritsch, Russel and Anderson</td>
 <td>12</td>
 <td>14.4</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1496</td>
+<th data-quarto-table-cell-role="th">1496</th>
 <td>Frami, Hills and Schmidt</td>
 <td>37</td>
 <td>44.4</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1497</td>
+<th data-quarto-table-cell-role="th">1497</th>
 <td>Stokes LLC</td>
 <td>14</td>
 <td>16.8</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1498</td>
+<th data-quarto-table-cell-role="th">1498</th>
 <td>Pollich LLC</td>
 <td>3</td>
 <td>3.6</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1499</td>
+<th data-quarto-table-cell-role="th">1499</th>
 <td>Will LLC</td>
 <td>38</td>
 <td>45.6</td>
@@ -641,7 +644,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="apply">Apply</h3>
 <p>Apply also loops through the dataframe under the hood. However, it’s faster than the normal looping demonstrated above because the looping happens in the C programming language layer. Remember, Python is a slow programming language, but when you use it in conjunction with pandas, which is written in the C programming language, it becomes fast. That’s why Python is capable of manipulating even large quantities of data. Unsurprisingly, performing the mathematical operation with <code>apply</code> is faster than the previous method.</p>
 <div id="b78ec518" class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>sales <span class="op">=</span> (pd.read_parquet(<span class="ss">f"</span><span class="sc">{</span>Path(<span class="st">'../../../'</span>)<span class="sc">}</span><span class="ss">/datasets/sales_total_2018.parquet"</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>sales <span class="op">=</span> (pd.read_parquet(<span class="ss">f"</span><span class="sc">{</span>Path(<span class="st">'../../../'</span>)<span class="sc">}</span><span class="ss">/datasets/sales_total_2018.parquet"</span>)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>         [[<span class="st">'name'</span>,<span class="st">'quantity'</span>]]</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>         )</span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -651,12 +654,12 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>sales[<span class="st">'Qty_plus_20_pct'</span>] <span class="op">=</span> sales[<span class="st">'quantity'</span>].<span class="bu">apply</span>(add_20_percent)</span>
 <span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>sales</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>sales</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="4">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -667,67 +670,67 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
+<th data-quarto-table-cell-role="th">0</th>
 <td>Barton LLC</td>
 <td>39</td>
 <td>46.8</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
+<th data-quarto-table-cell-role="th">1</th>
 <td>Trantow-Barrows</td>
 <td>-1</td>
 <td>-1.2</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
+<th data-quarto-table-cell-role="th">2</th>
 <td>Kulas Inc</td>
 <td>23</td>
 <td>27.6</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
+<th data-quarto-table-cell-role="th">3</th>
 <td>Kassulke, Ondricka and Metz</td>
 <td>41</td>
 <td>49.2</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
+<th data-quarto-table-cell-role="th">4</th>
 <td>Jerde-Hilpert</td>
 <td>6</td>
 <td>7.2</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">...</td>
+<th data-quarto-table-cell-role="th">...</th>
 <td>...</td>
 <td>...</td>
 <td>...</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1495</td>
+<th data-quarto-table-cell-role="th">1495</th>
 <td>Fritsch, Russel and Anderson</td>
 <td>12</td>
 <td>14.4</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1496</td>
+<th data-quarto-table-cell-role="th">1496</th>
 <td>Frami, Hills and Schmidt</td>
 <td>37</td>
 <td>44.4</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1497</td>
+<th data-quarto-table-cell-role="th">1497</th>
 <td>Stokes LLC</td>
 <td>14</td>
 <td>16.8</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1498</td>
+<th data-quarto-table-cell-role="th">1498</th>
 <td>Pollich LLC</td>
 <td>3</td>
 <td>3.6</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1499</td>
+<th data-quarto-table-cell-role="th">1499</th>
 <td>Will LLC</td>
 <td>38</td>
 <td>45.6</td>
@@ -745,19 +748,19 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <p>Dataframes are like matrices in that they have rows and columns. The only difference is that a matrix can only store values of the same data type, while a dataframe can store values of different data types. For this reason, you can perform vectorized operations on dataframes just like you can on matrices.</p>
 <p>In the code below, we multiply 1.20 directly on the dataframe, targeting the <code>quantity</code> column. With this operation, multiplication happens at once for all the rows of the dataframe.</p>
 <div id="f723296f" class="cell" data-execution_count="5">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>sales <span class="op">=</span> (pd.read_parquet(<span class="ss">f"</span><span class="sc">{</span>Path(<span class="st">'../../../'</span>)<span class="sc">}</span><span class="ss">/datasets/sales_total_2018.parquet"</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>sales <span class="op">=</span> (pd.read_parquet(<span class="ss">f"</span><span class="sc">{</span>Path(<span class="st">'../../../'</span>)<span class="sc">}</span><span class="ss">/datasets/sales_total_2018.parquet"</span>)</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>         [[<span class="st">'name'</span>,<span class="st">'quantity'</span>]]</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>         )</span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Incease qty by 20 percent (vectorized)</span></span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>(sales</span>
 <span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a> .assign(Qty_plus_20_pct<span class="op">=</span>sales[<span class="st">'quantity'</span>]<span class="op">*</span><span class="fl">1.20</span>)</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a> )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="5">
 <div>
 
 
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -768,67 +771,67 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
+<th data-quarto-table-cell-role="th">0</th>
 <td>Barton LLC</td>
 <td>39</td>
 <td>46.8</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
+<th data-quarto-table-cell-role="th">1</th>
 <td>Trantow-Barrows</td>
 <td>-1</td>
 <td>-1.2</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
+<th data-quarto-table-cell-role="th">2</th>
 <td>Kulas Inc</td>
 <td>23</td>
 <td>27.6</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
+<th data-quarto-table-cell-role="th">3</th>
 <td>Kassulke, Ondricka and Metz</td>
 <td>41</td>
 <td>49.2</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
+<th data-quarto-table-cell-role="th">4</th>
 <td>Jerde-Hilpert</td>
 <td>6</td>
 <td>7.2</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">...</td>
+<th data-quarto-table-cell-role="th">...</th>
 <td>...</td>
 <td>...</td>
 <td>...</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1495</td>
+<th data-quarto-table-cell-role="th">1495</th>
 <td>Fritsch, Russel and Anderson</td>
 <td>12</td>
 <td>14.4</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1496</td>
+<th data-quarto-table-cell-role="th">1496</th>
 <td>Frami, Hills and Schmidt</td>
 <td>37</td>
 <td>44.4</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1497</td>
+<th data-quarto-table-cell-role="th">1497</th>
 <td>Stokes LLC</td>
 <td>14</td>
 <td>16.8</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">1498</td>
+<th data-quarto-table-cell-role="th">1498</th>
 <td>Pollich LLC</td>
 <td>3</td>
 <td>3.6</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1499</td>
+<th data-quarto-table-cell-role="th">1499</th>
 <td>Will LLC</td>
 <td>38</td>
 <td>45.6</td>
@@ -848,7 +851,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <li>With normal looping</li>
 </ol>
 <div id="cc2ac8d9" class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>timeit</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>timeit</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>sales <span class="op">=</span> (pd.read_parquet(<span class="ss">f"</span><span class="sc">{</span>Path(<span class="st">'../../../'</span>)<span class="sc">}</span><span class="ss">/datasets/sales_total_2018.parquet"</span>)</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>         [[<span class="st">'name'</span>,<span class="st">'quantity'</span>]]</span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>         )</span>
@@ -856,7 +859,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(sales)):</span>
 <span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    sales.at[i, <span class="st">'Qty_plus_20_pct'</span>] <span class="op">=</span> sales.at[i, <span class="st">'quantity'</span>] <span class="op">*</span> <span class="fl">1.20</span></span>
 <span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>sales</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>sales</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>16 ms ± 333 μs per loop (mean ± std. dev. of 7 runs, 100 loops each)</code></pre>
 </div>
@@ -865,7 +868,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <li>With apply</li>
 </ol>
 <div id="098cbecc" class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>timeit</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>timeit</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>sales <span class="op">=</span> (pd.read_parquet(<span class="ss">f"</span><span class="sc">{</span>Path(<span class="st">'../../../'</span>)<span class="sc">}</span><span class="ss">/datasets/sales_total_2018.parquet"</span>)</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>         [[<span class="st">'name'</span>,<span class="st">'quantity'</span>]]</span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>         )</span>
@@ -876,7 +879,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>sales[<span class="st">'Qty_plus_20_pct'</span>] <span class="op">=</span> sales[<span class="st">'quantity'</span>].<span class="bu">apply</span>(add_20_percent)</span>
 <span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>sales</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>sales</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>749 μs ± 3.92 μs per loop (mean ± std. dev. of 7 runs, 1,000 loops each)</code></pre>
 </div>
@@ -885,7 +888,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <li>With vectorizaiton</li>
 </ol>
 <div id="b9b5821a" class="cell" data-execution_count="8">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>timeit</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>timeit</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>sales <span class="op">=</span> (pd.read_parquet(<span class="ss">f"</span><span class="sc">{</span>Path(<span class="st">'../../../'</span>)<span class="sc">}</span><span class="ss">/datasets/sales_total_2018.parquet"</span>)</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>         [[<span class="st">'name'</span>,<span class="st">'quantity'</span>]]</span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>         )</span>
@@ -893,7 +896,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Incease qty by 20 percent (vectorized)</span></span>
 <span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>(sales</span>
 <span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a> .assign(Qty_plus_20_pct<span class="op">=</span>sales[<span class="st">'quantity'</span>]<span class="op">*</span><span class="fl">1.20</span>)</span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a> )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>681 μs ± 18.7 μs per loop (mean ± std. dev. of 7 runs, 1,000 loops each)</code></pre>
 </div>
@@ -974,13 +977,14 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1331,7 +1335,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © 2025, Secret Intellectual</p>
+<p>Copyright © 2026, Secret Intellectual</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">

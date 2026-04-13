@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,6 +11,9 @@
 
 <title>Getting month and day names from datetime with polars – Joram Mutenge</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -74,14 +77,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-523c6f62b46b97e25e3633e1f3acd20e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-41bb3de57b6994066e94f43cc7975dba.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-523c6f62b46b97e25e3633e1f3acd20e.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-22b768d323dd5f99de29808ae03c2fa5.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-ea5ba0982766e27737f951941b6182c4.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-22b768d323dd5f99de29808ae03c2fa5.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-de8b8a2a3e24f44a0831df91ff1d5d90.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-9e75d4b29017604fe036664219c6a162.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-de8b8a2a3e24f44a0831df91ff1d5d90.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-9a46f90ec1ea6c670dd9058764f39da0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-5f2f6f3c871575a8ba52949bac79cce9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-9a46f90ec1ea6c670dd9058764f39da0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -317,7 +320,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <span class="menu-text">Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://podcasters.spotify.com/pod/show/50ttdz" target="_blank"> 
+    <a class="nav-link" href="https://open.spotify.com/show/1An3ofQtg1XsvdYqwrY4Lq" target="_blank"> 
 <span class="menu-text">Podcast</span></a>
   </li>  
   <li class="nav-item">
@@ -392,7 +395,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <p>When you have timeseries data, you may want to extract the day and month names from the date. Polars makes it easy to do that but the default way doesn’t get you the actual names like “Wednesday” or “January” instead it gives you numbers; 3 for Wednesday and 1 for January.</p>
 <p>Here’s my dataset with YouTube comments and the datetime stamp when they were posted.</p>
 <div id="bd7cff2b" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> polars <span class="im">as</span> pl</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> polars <span class="im">as</span> pl</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pathlib <span class="im">import</span> Path</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> (pl.read_parquet(<span class="ss">f"</span><span class="sc">{</span>Path(<span class="st">'../../../'</span>)<span class="sc">}</span><span class="ss">/datasets/last_week_tonight.parquet"</span>)</span>
@@ -400,7 +403,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a> .with_columns(Datetime<span class="op">=</span>pl.from_epoch(<span class="st">'time_parsed'</span>))</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a> .drop(<span class="st">'time_parsed'</span>)</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a> )</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="1">
 <div><style>
 .dataframe > thead > tr,
@@ -410,15 +413,15 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 }
 </style>
 <small>shape: (5, 2)</small>
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th">text</th>
 <th data-quarto-table-cell-role="th">Datetime</th>
 </tr>
 <tr class="even">
-<th>str</th>
-<th>datetime[μs]</th>
+<td>str</td>
+<td>datetime[μs]</td>
 </tr>
 </thead>
 <tbody>
@@ -449,11 +452,11 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 </div>
 <p><br> Here’s the default way to get the day and month data from datetime. As I pointed out, it won’t get us the names but it will get us the numbers that match either the day or month.</p>
 <div id="30b29341" class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>(df</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>(df</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a> .with_columns(Weekday<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.weekday(),</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>               Month<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.month())</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a> .head()</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a> )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="2">
 <div><style>
 .dataframe > thead > tr,
@@ -463,7 +466,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 }
 </style>
 <small>shape: (5, 4)</small>
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th">text</th>
@@ -472,10 +475,10 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <th data-quarto-table-cell-role="th">Month</th>
 </tr>
 <tr class="even">
-<th>str</th>
-<th>datetime[μs]</th>
-<th>i8</th>
-<th>i8</th>
+<td>str</td>
+<td>datetime[μs]</td>
+<td>i8</td>
+<td>i8</td>
 </tr>
 </thead>
 <tbody>
@@ -516,13 +519,13 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 </div>
 <p><br> To get the actual names, the code becomes somewhat complicated. You can either get the long name or the short name. Here’s how you do it.</p>
 <div id="0c1362f0" class="cell" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(df</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(df</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a> .with_columns(Day_Short<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.strftime(<span class="st">'%a'</span>),</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>               Day_Long<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.strftime(<span class="st">'%A'</span>),</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>               Month_Short<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.strftime(<span class="st">'%b'</span>),</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>               Month_Long<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.strftime(<span class="st">'%B'</span>))</span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a> .head()</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a> )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="3">
 <div><style>
 .dataframe > thead > tr,
@@ -532,7 +535,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 }
 </style>
 <small>shape: (5, 6)</small>
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th">text</th>
@@ -543,12 +546,12 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <th data-quarto-table-cell-role="th">Month_Long</th>
 </tr>
 <tr class="even">
-<th>str</th>
-<th>datetime[μs]</th>
-<th>str</th>
-<th>str</th>
-<th>str</th>
-<th>str</th>
+<td>str</td>
+<td>datetime[μs]</td>
+<td>str</td>
+<td>str</td>
+<td>str</td>
+<td>str</td>
 </tr>
 </thead>
 <tbody>
@@ -599,7 +602,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 </div>
 <p><br> Why would you want to use short names? For one, they are good for visualizations. Here is a bar chart with long names. You’ll agree that it doesn’t look nice, especially on the right side, because the day names are too close.</p>
 <div id="b0cfc0ae" class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>(df</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>(df</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a> .with_columns(Day_Short<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.strftime(<span class="st">'%a'</span>),</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>               Day_Long<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.strftime(<span class="st">'%A'</span>),</span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>               Month_Short<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.strftime(<span class="st">'%b'</span>),</span>
@@ -607,7 +610,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a> .group_by(<span class="st">'Day_Long'</span>).<span class="bu">len</span>()</span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a> .to_pandas()</span>
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a> .plot.bar(x<span class="op">=</span><span class="st">'Day_Long'</span>, y<span class="op">=</span><span class="st">'len'</span>, rot<span class="op">=</span><span class="dv">0</span>, width<span class="op">=</span><span class="fl">.85</span>)</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a> )<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a> )<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -618,7 +621,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 </div>
 <p><br> Now, here is the same bar chart made with short day names. It’s easy on the eyes because the bar labels are nicely spaced.</p>
 <div id="4d1af8e7" class="cell" data-execution_count="5">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(df</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(df</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a> .with_columns(Day_Short<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.strftime(<span class="st">'%a'</span>),</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>               Day_Long<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.strftime(<span class="st">'%A'</span>),</span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>               Month_Short<span class="op">=</span>pl.col(<span class="st">'Datetime'</span>).dt.strftime(<span class="st">'%b'</span>),</span>
@@ -634,7 +637,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>           xlabel<span class="op">=</span><span class="st">''</span>,</span>
 <span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>           title<span class="op">=</span><span class="st">'Total number of comments for each week day'</span>,</span>
 <span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>           figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="dv">4</span>))</span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a> )<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a> )<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -646,13 +649,13 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <p><br> If you can’t bring yourself to write the complicated code with percentage signs and letters just to extract day or month names, you can use a library called <code>polars_xdt</code>. Here’s how easy it is to get both day and month names.</p>
 <p>What’s more, with <code>polars_xdt</code> you can get the day names in other languages. The code below shows how to get the French and Ukrainian day names.</p>
 <div id="bc764b65" class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> polars_xdt <span class="im">as</span> xdt</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> polars_xdt <span class="im">as</span> xdt</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>(df</span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a> .with_columns(Weekday<span class="op">=</span>xdt.day_name(<span class="st">'Datetime'</span>),</span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>               Month<span class="op">=</span>xdt.month_name(<span class="st">'Datetime'</span>))</span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a> .head()</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a> )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="6">
 <div><style>
 .dataframe > thead > tr,
@@ -662,7 +665,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 }
 </style>
 <small>shape: (5, 4)</small>
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th">text</th>
@@ -671,10 +674,10 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <th data-quarto-table-cell-role="th">Month</th>
 </tr>
 <tr class="even">
-<th>str</th>
-<th>datetime[μs]</th>
-<th>str</th>
-<th>str</th>
+<td>str</td>
+<td>datetime[μs]</td>
+<td>str</td>
+<td>str</td>
 </tr>
 </thead>
 <tbody>
@@ -715,12 +718,12 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 </div>
 <p><br> However, I couldn’t find a way to get the names in short form using <code>polars_xdt</code>. But that’s not too much of a problem because the <code>slice</code> method in polars can help us do that.</p>
 <div id="d7f81067" class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>(df</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>(df</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a> .with_columns(Weekday<span class="op">=</span>xdt.day_name(<span class="st">'Datetime'</span>),</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>               French_Weekday<span class="op">=</span>xdt.day_name(<span class="st">'Datetime'</span>, locale<span class="op">=</span><span class="st">'fr_FR'</span>),</span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>               Ukranian_Weekday<span class="op">=</span>xdt.day_name(<span class="st">'Datetime'</span>, locale<span class="op">=</span><span class="st">'uk_UA'</span>))</span>
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a> .head()</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a> )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a> )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display" data-execution_count="7">
 <div><style>
 .dataframe > thead > tr,
@@ -730,7 +733,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 }
 </style>
 <small>shape: (5, 5)</small>
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th">text</th>
@@ -740,11 +743,11 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <th data-quarto-table-cell-role="th">Ukranian_Weekday</th>
 </tr>
 <tr class="even">
-<th>str</th>
-<th>datetime[μs]</th>
-<th>str</th>
-<th>str</th>
-<th>str</th>
+<td>str</td>
+<td>datetime[μs]</td>
+<td>str</td>
+<td>str</td>
+<td>str</td>
 </tr>
 </thead>
 <tbody>
@@ -857,13 +860,14 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1214,7 +1218,7 @@ gtag('config', 'G-5Y1ZXKXMBX', { 'anonymize_ip': true});
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Copyright © 2025, Secret Intellectual</p>
+<p>Copyright © 2026, Secret Intellectual</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
