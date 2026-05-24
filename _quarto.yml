@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  llms-txt: true
   title: "Joram Mutenge"
   favicon: images/favicon.png
   site-url: https://www.jorammutenge.com

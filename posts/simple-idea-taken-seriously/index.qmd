@@ -1,0 +1,88 @@
+---
+title: "When a simple idea is taken seriously"
+subtitle: "Mohnish Pabrai"
+author: '{{< var author >}}'
+date: 'May 24, 2026'
+toc: true
+toc-title: 'Sections'
+toc-location: right
+toc-depth: 3
+categories: [essay]
+---
+
+Original ideas are rare. Most people go through life without ever having one. Others have a few, but they're useless. Very few people come up with original ideas that actually work.
+
+The good news is that you don't need an original idea to succeed. You can do extremely well by copying people who already have working ideas and executing better than everyone else.
+
+In the [latest episode](https://www.youtube.com/watch?v=FjWY1-gZ0Cs) of _My First Million_, Mohnish Pabrai talks with Shaan Puri about how terrible people are at copying.
+
+Mohnish points out that Elon Musk is famously open about how he runs his companies. His competitors can see the playbook in plain sight, yet most of them still refuse to operate the way he does. All they have to do is copy what works, but they don't. Is it any surprise he keeps winning?
+
+Sam Walton was another master copycat. He didn't build his empire on originality. He built it on studying what already worked and improving it.
+
+Sam's Club was inspired by Price Club. Walmart itself borrowed heavily from Kmart.
+
+Walton was proud of it. He once said that no person before him had visited more competitor retail stores than he had, and no person after him would break that record.
+
+Copying is underrated because people are embarrassed by it. They want to believe success comes from originality, not imitation. Mohnish argues the opposite: copying is powerful precisely because most people refuse to do it.
+
+But admiration alone is useless. You have to act.
+
+Walton didn't just notice good ideas. He implemented them aggressively. He took simple ideas seriously.
+
+That's the real lesson: find something simple that works and commit to it fully.
+
+Of course, you can't copy blindly. You have to remix ideas to fit your environment. The principle stays the same, but the execution changes depending on your context.
+
+Mohnish himself openly admits that he copied Warren Buffett's investment philosophy. But he also adapted it to fit his own opportunities.
+
+While studying markets in Turkey and India, Mohnish noticed a striking difference. In India, there were roughly 150 well-governed companies worth owning, but everyone already knew about them. Investors held onto them tightly, driving valuations to extreme levels.
+
+Turkey was different. Investors there behaved more like short-term speculators. As a result, even excellent businesses traded cheaply.
+
+Mohnish compared Coke bottlers and airport operators in both countries and found huge valuation gaps for essentially similar businesses. His conclusion was simple: India was crowded and expensive. Turkey was ignored and cheap.
+
+So he made Turkey his investment hub.
+
+Before investing heavily, he immersed himself in the Turkish market the same way a young Buffett studied stocks through Moody's manuals. He learned everything he could.
+
+Again, a simple idea taken seriously.
+
+His research led him to an astonishing insight: in Turkey, terrible companies and great companies were both cheap. The market barely distinguished between them. That allowed him to buy outstanding businesses at absurdly low prices.
+
+Shaan Puri applied the same principle outside investing.
+
+He attended FarmCon, a farming conference in Kansas City. As the only tech guy there, dressed completely wrong for the crowd, he felt out of place. But he stayed.
+
+That discomfort introduced randomness and serendipity into his life.
+
+At the conference, he met Kevin Van Trump, creator of the newsletter _The Van Trump Report_.
+
+The newsletter was shockingly simple.
+
+Half of it was memes and jokes because farmers liked starting their mornings with a laugh. The other half covered market updates relevant to agriculture.
+
+Shaan immediately recognized a simple idea that worked.
+
+So he copied it and remixed it.
+
+Instead of agriculture, he focused on crypto, which was just beginning to attract mainstream attention. That same night, he and his business partner, Ben Levy, wrote the first edition of their newsletter.
+
+As a nod to FarmCon, they called it _Milk Road_.
+
+Within a year, it became the largest crypto newsletter in the world. They eventually sold it for millions without ever hiring an employee.
+
+If you don't have a useful original idea, don't despair.
+
+Find someone doing something that clearly works. Study it carefully. Copy it. Remix it to fit your situation. Then execute relentlessly.
+
+Most people are too proud to copy. They cling to weak original ideas and wonder why success never arrives.
+
+Don't just admire successful people. Do what they do.
+
+That's what it means to find a simple idea and take it seriously.
+
+::: {style="text-align: right;"}
+_Take the road less traveled_  
+**MFM**
+:::
