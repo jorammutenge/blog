@@ -3,6 +3,14 @@
 
 ------------------------------------------------------------------------
 
+### [The Daisy syndrome](posts/daisy-syndrome/index.llms.md)
+
+Jun 3, 2026
+
+Joram Mutenge
+
+4 min
+
 ### [When a simple idea is taken seriously](posts/simple-idea-taken-seriously/index.llms.md)
 
 May 24, 2026
