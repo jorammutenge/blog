@@ -5,6 +5,7 @@ about:
 ---
 
 ::: {layout-ncol="4"}
+
 [![](images/book1.png){class="zoom" width="200" height="260"}](https://www.amazon.com/dp/B0B2WZJM1M/){target="_blank"}
 
 [![](images/book2.png){class="zoom" width="200" height="260"}](https://www.amazon.com/dp/B0C642592W/){target="_blank"}
@@ -12,6 +13,7 @@ about:
 [![](images/book3.jpg){class="zoom" width="200" height="260"}](https://www.amazon.com/dp/B0B37Z79BM/){target="_blank"}
 
 [![](images/book4.png){class="zoom" width="200" height="260"}](https://www.amazon.com/dp/B0D5Y7X5SF){target="_blank"}
+
 :::
 
 <style>
