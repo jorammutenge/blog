@@ -18,6 +18,9 @@ website:
     right:
       - about.qmd
       - books.qmd
+      - text: Substack
+        href: https://financical.substack.com/
+        target: _blank
       - text: Podcast
         href: https://open.spotify.com/show/1An3ofQtg1XsvdYqwrY4Lq
         target: _blank
@@ -29,9 +32,9 @@ website:
       - text: '{{< fa brands linkedin >}}'
         href: https://www.linkedin.com/in/jorammutenge/
         target: _blank
-      - text: '{{< fa brands bluesky >}}'
-        href: https://bsky.app/profile/jorammutenge.com
-        target: _blank
+      # - text: '{{< fa brands bluesky >}}'
+      #   href: https://bsky.app/profile/jorammutenge.com
+      #   target: _blank
       # - icon: rss
       #   href: index.xml    
   page-footer: 
