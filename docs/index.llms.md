@@ -3,6 +3,14 @@
 
 ------------------------------------------------------------------------
 
+### [Would I date me?](posts/would-i-date-me/index.llms.md)
+
+Jun 20, 2026
+
+Joram Mutenge
+
+4 min
+
 ### [The Daisy syndrome](posts/daisy-syndrome/index.llms.md)
 
 Jun 3, 2026
