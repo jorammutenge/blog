@@ -1,6 +1,5 @@
 ---
 title: "The magic of small compounding"
-author: '{{< var author >}}'
 date: '2025-04-09'
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Stimulus stacking: The 21st century addiction"
-author: '{{< var author >}}'
 date: '2025-05-02'
 ---
 

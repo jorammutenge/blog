@@ -1,0 +1,26 @@
+[![Joram Mutenge](../../images/avatar.jpg) Joram Mutenge](../../)
+
+June 29, 2024
+
+# The myth of motivation
+
+If we all waited to have the motivation to do something, none of us would do anything productive.
+
+Real motivation happens when you start doing the thing, not before you start. It’s the momentum that keeps you going so that you can finish what you’re doing.
+
+``` mermaid
+graph LR
+    ACTION --> MOTIVATION
+    MOTIVATION --> PRODUCTIVITY
+    PRODUCTIVITY --> ACTION
+
+    style ACTION fill:#006400,stroke:#00FF00,color:#ffffff
+    style MOTIVATION fill:#006400,stroke:#00FF00,color:#ffffff
+    style PRODUCTIVITY fill:#006400,stroke:#00FF00,color:#ffffff
+```
+
+Don’t wait for motivation to get you to do something. Instead, start doing something and use the motivation to get you going.
+
+Always remember:
+
+> Motivation happens after action, not before.

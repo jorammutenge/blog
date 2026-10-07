@@ -1,0 +1,15 @@
+[![Joram Mutenge](../../images/avatar.jpg) Joram Mutenge](../../)
+
+July 20, 2024
+
+# Remember these two functions of business
+
+Keeping track of every aspect of your business can be difficult. Sometimes it can feel like the business is running you instead of you running it.
+
+Fortunately, there is a solution to this problem.
+
+> To get a handle on your business, you must focus on two things: marketing and innovation.
+
+Generally speaking, business only has two important functions namely marketing and innovation. A business or brand is either busy creating something (innovation) or telling everyone about it (marketing).
+
+When you focus on these two important things you free your mind and don’t compromise the productivity of your business.

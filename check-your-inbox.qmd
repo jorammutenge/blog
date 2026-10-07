@@ -1,0 +1,19 @@
+---
+pagetitle: "Check your inbox | Joram Mutenge"
+search: false   # keep this page out of search results
+include-before-body:
+  - _includes/masthead.html
+---
+
+<!-- Kit redirects here after someone subscribes (Kit form settings → General). -->
+::: {.inbox-note}
+## Almost done. Check your inbox.
+
+I've sent you an email with a link to confirm your subscription.
+You won't get any posts until you click it.
+
+**Can't find it?** Look in your spam, junk, or promotions folder.
+If it's there, mark it as "Not spam" so future posts land in your inbox.
+
+[← Back to the home page](/)
+:::

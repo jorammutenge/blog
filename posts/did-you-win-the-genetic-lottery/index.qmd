@@ -1,8 +1,6 @@
 ---
 title: 'Did you win the genetic lottery?'
-author: '{{< var author >}}'
 date: '2024-11-28'
-categories: [essay]
 ---
 
 If there were a perfect human, that human would do no wrong. But since we've all done wrong things knowingly or unknowingly, it follows that none of us is perfect. And it's okay not to be perfect until it isn't.

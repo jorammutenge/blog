@@ -1,8 +1,6 @@
 ---
 title: 'I keep learning new things from Jeff Bezos'
-author: '{{< var author >}}'
 date: '2024-12-06'
-categories: [business]
 ---
 
 Jeff Bezos rarely gives interviews, but whenever he does one, I drop everything and listen. So when the YouTube algorithm showed me an interview of him with Andrew Ross Sorkin, you know exactly what I did. Yes, I dropped everything and played the interview.

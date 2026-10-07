@@ -1,12 +1,6 @@
 ---
 title: "From my first million to demis hassabis"
-author: '{{< var author >}}'
 date: 'March 30, 2026'
-toc: true
-toc-title: 'Sections'
-toc-location: right
-toc-depth: 3
-categories: [essay]
 ---
 
 I'm an avid listener of the podcast *My First Million*. I enjoy the banter between Sam and Shaan, and they share inspiring stories and lessons on entrepreneurship that expand my business knowledge.

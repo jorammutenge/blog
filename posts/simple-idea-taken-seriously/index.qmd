@@ -1,13 +1,6 @@
 ---
 title: "When a simple idea is taken seriously"
-subtitle: "Mohnish Pabrai"
-author: '{{< var author >}}'
 date: 'May 24, 2026'
-toc: true
-toc-title: 'Sections'
-toc-location: right
-toc-depth: 3
-categories: [essay]
 ---
 
 Original ideas are rare. Most people go through life without ever having one. Others have a few, but they're useless. Very few people come up with original ideas that actually work.

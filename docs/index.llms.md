@@ -1,926 +1,577 @@
-**Want to support me?**  
-[![](images/coffee.png)](https://www.buymeacoffee.com/jorammutenge)
+[![Joram Mutenge](./images/avatar.jpg) Joram Mutenge](./)
+
+[Data professional](https://www.linkedin.com/in/jorammutenge/), [speaker](https://www.youtube.com/watch?v=5-4xTrN-M98), essayist, podcaster, and author. Wrote two data books: [Deep Analysis with Polars](https://www.amazon.com/dp/B0GXG1BHG6/), and [Deep Analysis with Pandas](https://www.amazon.com/dp/B0HLS1QZVB/). Wrote [Unlaid](https://www.amazon.com/dp/B0B2WZJM1M/), a semi-autobiographical novel. Host of [50 Things That Define Zambia](https://open.spotify.com/show/1An3ofQtg1XsvdYqwrY4Lq) podcast. [Financical](https://financical.substack.com/) on substack.
 
 ------------------------------------------------------------------------
 
-### [Would I date me?](posts/would-i-date-me/index.llms.md)
+[![Buy me a coffee](./images/buy-me-coffee-light.png) ![Buy me a coffee](./images/buy-me-coffee-dark.png)](https://buymeacoffee.com/jorammutenge)
 
-Jun 20, 2026
+Subscribe to get future posts via email (or grab the [RSS feed](./index.xml))
 
-Joram Mutenge
+Subscribe
 
-4 min
+June 20, 2026
 
-### [The Daisy syndrome](posts/daisy-syndrome/index.llms.md)
+## [Would I date me?](posts/would-i-date-me/index.llms.md)
 
-Jun 3, 2026
+[Read more](posts/would-i-date-me/index.llms.md)
 
-Joram Mutenge
+June 3, 2026
 
-4 min
+## [The Daisy syndrome](posts/daisy-syndrome/index.llms.md)
 
-### [When a simple idea is taken seriously](posts/simple-idea-taken-seriously/index.llms.md)
+[Read more](posts/daisy-syndrome/index.llms.md)
 
 May 24, 2026
 
-Joram Mutenge
+## [When a simple idea is taken seriously](posts/simple-idea-taken-seriously/index.llms.md)
 
-4 min
+[Read more](posts/simple-idea-taken-seriously/index.llms.md)
 
-### [From my first million to demis hassabis](posts/demis-hassabis/index.llms.md)
+March 30, 2026
 
-Mar 30, 2026
+## [From my first million to demis hassabis](posts/demis-hassabis/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/demis-hassabis/index.llms.md)
 
-3 min
+September 19, 2025
 
-### [Give people your advice and then follow it](posts/give-people-advice/index.llms.md)
+## [Give people your advice and then follow it](posts/give-people-advice/index.llms.md)
 
-Sep 19, 2025
+[Read more](posts/give-people-advice/index.llms.md)
 
-Joram Mutenge
+August 16, 2025
 
-3 min
+## [Is a breakup more painful than unrequited love?](posts/breakup-vs-unrequited-love/index.llms.md)
 
-### [Is a breakup more painful than unrequited love?](posts/breakup-vs-unrequited-love/index.llms.md)
+[Read more](posts/breakup-vs-unrequited-love/index.llms.md)
 
-Aug 16, 2025
+August 9, 2025
 
-Joram Mutenge
+## [Envy is the most powerful source of motivation](posts/envy-as-motivation/index.llms.md)
 
-4 min
+[Read more](posts/envy-as-motivation/index.llms.md)
 
-### [Envy is the most powerful source of motivation](posts/envy-as-motivation/index.llms.md)
+July 12, 2025
 
-Aug 9, 2025
+## [A sunday school lesson I struggled with](posts/sunday-school-lesson/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/sunday-school-lesson/index.llms.md)
 
-2 min
+June 10, 2025
 
-### [A sunday school lesson I struggled with](posts/sunday-school-lesson/index.llms.md)
+## [What if you let your thoughts play out like a podcast episode?](posts/thoughts-as-podcast-episode/index.llms.md)
 
-Jul 12, 2025
-
-Joram Mutenge
-
-3 min
-
-### [What if you let your thoughts play out like a podcast episode?](posts/thoughts-as-podcast-episode/index.llms.md)
-
-Jun 10, 2025
-
-Joram Mutenge
-
-4 min
-
-### [The older you grow, the smarter your parents become](posts/the-older-you-grow/index.llms.md)
+[Read more](posts/thoughts-as-podcast-episode/index.llms.md)
 
 May 12, 2025
 
-Joram Mutenge
+## [The older you grow, the smarter your parents become](posts/the-older-you-grow/index.llms.md)
 
-2 min
-
-### [When humility becomes doubt](posts/humility/index.llms.md)
+[Read more](posts/the-older-you-grow/index.llms.md)
 
 May 7, 2025
 
-Joram Mutenge
+## [When humility becomes doubt](posts/humility/index.llms.md)
 
-2 min
-
-### [Stimulus stacking: The 21st century addiction](posts/stimulus-stacking/index.llms.md)
+[Read more](posts/humility/index.llms.md)
 
 May 2, 2025
 
-Joram Mutenge
+## [Stimulus stacking: The 21st century addiction](posts/stimulus-stacking/index.llms.md)
 
-3 min
+[Read more](posts/stimulus-stacking/index.llms.md)
 
-### [Is the journey really better than the destination?](posts/the-journey/index.llms.md)
+April 20, 2025
 
-Apr 20, 2025
+## [Is the journey really better than the destination?](posts/the-journey/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/the-journey/index.llms.md)
 
-2 min
+April 14, 2025
 
-### [Don’t try to know too much before doing something](posts/learn-by-doing/index.llms.md)
+## [Don't try to know too much before doing something](posts/learn-by-doing/index.llms.md)
 
-Apr 14, 2025
+[Read more](posts/learn-by-doing/index.llms.md)
 
-Joram Mutenge
+April 12, 2025
 
-2 min
+## [Obsess over aesthetics, because they matter!](posts/aesthetics/index.llms.md)
 
-### [Obsess over aesthetics, because they matter!](posts/aesthetics/index.llms.md)
+[Read more](posts/aesthetics/index.llms.md)
 
-Apr 12, 2025
+April 9, 2025
 
-Joram Mutenge
+## [The magic of small compounding](posts/small-compounding/index.llms.md)
 
-2 min
+[Read more](posts/small-compounding/index.llms.md)
 
-### [The magic of small compounding](posts/small-compounding/index.llms.md)
+March 20, 2025
 
-Apr 9, 2025
+## [There's no such thing as an even playing field](posts/even-playing-field/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/even-playing-field/index.llms.md)
 
-2 min
+March 16, 2025
 
-### [There’s no such thing as an even playing field](posts/even-playing-field/index.llms.md)
+## [The two dimensions of authenticity](posts/authenticity/index.llms.md)
 
-Mar 20, 2025
+[Read more](posts/authenticity/index.llms.md)
 
-Joram Mutenge
+March 14, 2025
 
-1 min
+## [Feeling pain and suffering is a moment of truth](posts/pain-is-truth/index.llms.md)
 
-### [The two dimensions of authenticity](posts/authenticity/index.llms.md)
+[Read more](posts/pain-is-truth/index.llms.md)
 
-Mar 16, 2025
+February 21, 2025
 
-Joram Mutenge
+## [The types of lies we tell](posts/lies-we-tell/index.llms.md)
 
-2 min
+[Read more](posts/lies-we-tell/index.llms.md)
 
-### [Feeling pain and suffering is a moment of truth](posts/pain-is-truth/index.llms.md)
+February 19, 2025
 
-Mar 14, 2025
+## [To teach is to learn](posts/teach-to-learn/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/teach-to-learn/index.llms.md)
 
-2 min
+February 15, 2025
 
-### [The types of lies we tell](posts/lies-we-tell/index.llms.md)
+## [Be clever when times are good](posts/be-clever/index.llms.md)
 
-Feb 21, 2025
+[Read more](posts/be-clever/index.llms.md)
 
-Joram Mutenge
+February 3, 2025
 
-2 min
+## [Advice to young Zambians wanting to study abroad](posts/studying-abroad/index.llms.md)
 
-### [To teach is to learn](posts/teach-to-learn/index.llms.md)
+[Read more](posts/studying-abroad/index.llms.md)
 
-Feb 19, 2025
+January 26, 2025
 
-Joram Mutenge
+## [The smartest dumb kid in a dumb class](posts/smartest-dumb-kid/index.llms.md)
 
-2 min
+[Read more](posts/smartest-dumb-kid/index.llms.md)
 
-### [Be clever when times are good](posts/be-clever/index.llms.md)
+January 18, 2025
 
-Feb 15, 2025
+## [What you can learn from my experience watching The Social Network](posts/watching-the-social-network/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/watching-the-social-network/index.llms.md)
 
-2 min
+January 3, 2025
 
-### [Advice to young Zambians wanting to study abroad](posts/studying-abroad/index.llms.md)
+## [Do they know they're competing with everyone in the world?](posts/do-they-know-they-are-competing-with-everyone/index.llms.md)
 
-Feb 3, 2025
+[Read more](posts/do-they-know-they-are-competing-with-everyone/index.llms.md)
 
-Joram Mutenge
+December 17, 2024
 
-4 min
+## [Don't live your life on autopilot](posts/dont-live-your-life-on-autopilot/index.llms.md)
 
-### [The smartest dumb kid in a dumb class](posts/smartest-dumb-kid/index.llms.md)
+[Read more](posts/dont-live-your-life-on-autopilot/index.llms.md)
 
-Jan 26, 2025
+December 16, 2024
 
-Joram Mutenge
+## [A lesson every young career person should know](posts/lesson-for-young-career-people/index.llms.md)
 
-3 min
+[Read more](posts/lesson-for-young-career-people/index.llms.md)
 
-[![](./posts/watching-the-social-network/image.png)](posts/watching-the-social-network/index.llms.md)
+December 14, 2024
 
-### [What you can learn from my experience watching The Social Network](posts/watching-the-social-network/index.llms.md)
+## [Acquired podcast host Ben reveals the secret source behind their massive success](posts/secret-source-behind-acquired-podcast-massive-success/index.llms.md)
 
-Jan 18, 2025
+[Read more](posts/secret-source-behind-acquired-podcast-massive-success/index.llms.md)
 
-Joram Mutenge
+December 6, 2024
 
-2 min
+## [I keep learning new things from Jeff Bezos](posts/learning-new-things-from-Jeff-Bezos/index.llms.md)
 
-### [Do they know they’re competing with everyone in the world?](posts/do-they-know-they-are-competing-with-everyone/index.llms.md)
+[Read more](posts/learning-new-things-from-Jeff-Bezos/index.llms.md)
 
-Jan 3, 2025
+December 4, 2024
 
-Joram Mutenge
+## [Why pain is good for you](posts/why-pain-is-good-for-you/index.llms.md)
 
-2 min
+[Read more](posts/why-pain-is-good-for-you/index.llms.md)
 
-### [Don’t live your life on autopilot](posts/dont-live-your-life-on-autopilot/index.llms.md)
+November 28, 2024
 
-Dec 17, 2024
+## [Did you win the genetic lottery?](posts/did-you-win-the-genetic-lottery/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/did-you-win-the-genetic-lottery/index.llms.md)
 
-1 min
+November 12, 2024
 
-### [A lesson every young career person should know](posts/lesson-for-young-career-people/index.llms.md)
+## [The three groups of people in the world](posts/three-groups-of-people-in-the-world/index.llms.md)
 
-Dec 16, 2024
+[Read more](posts/three-groups-of-people-in-the-world/index.llms.md)
 
-Joram Mutenge
+November 5, 2024
 
-2 min
+## [The two types of assholes in your working career](posts/the-two-types-of-assholes-in-your-working-career/index.llms.md)
 
-### [Acquired podcast host Ben reveals the secret source behind their massive success](posts/secret-source-behind-acquired-podcast-massive-success/index.llms.md)
+[Read more](posts/the-two-types-of-assholes-in-your-working-career/index.llms.md)
 
-Dec 14, 2024
+September 10, 2024
 
-Joram Mutenge
+## [Dream big, because dreams are free](posts/dream-big-because-dreams-are-free/index.llms.md)
 
-3 min
+[Read more](posts/dream-big-because-dreams-are-free/index.llms.md)
 
-### [I keep learning new things from Jeff Bezos](posts/learning-new-things-from-Jeff-Bezos/index.llms.md)
+September 3, 2024
 
-Dec 6, 2024
+## [Why you should make your time love you](posts/why-you-should-make-your-time-love-you/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/why-you-should-make-your-time-love-you/index.llms.md)
 
-2 min
+August 25, 2024
 
-### [Why pain is good for you](posts/why-pain-is-good-for-you/index.llms.md)
+## [There is so much to see in Chicago](posts/there-is-so-much-to-see-in-chicago/index.llms.md)
 
-Dec 4, 2024
+[Read more](posts/there-is-so-much-to-see-in-chicago/index.llms.md)
 
-Joram Mutenge
+August 21, 2024
 
-1 min
+## [Freemium is not a business strategy](posts/freemium-is-not-a-business-strategy/index.llms.md)
 
-### [Did you win the genetic lottery?](posts/did-you-win-the-genetic-lottery/index.llms.md)
+[Read more](posts/freemium-is-not-a-business-strategy/index.llms.md)
 
-Nov 28, 2024
+July 22, 2024
 
-Joram Mutenge
+## [Poor finishing is worse than not getting started](posts/poor-finishing-is-worse-than-not-getting-started/index.llms.md)
 
-4 min
+[Read more](posts/poor-finishing-is-worse-than-not-getting-started/index.llms.md)
 
-### [The three groups of people in the world](posts/three-groups-of-people-in-the-world/index.llms.md)
+July 21, 2024
 
-Nov 12, 2024
+## [Should you have a business partner?](posts/should-you-have-a-business-partner/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/should-you-have-a-business-partner/index.llms.md)
 
-2 min
+July 20, 2024
 
-### [The two types of assholes in your working career](posts/24/1105/index.llms.md)
+## [Remember these two functions of business](posts/remember-these-two-functions-of-business/index.llms.md)
 
-Nov 5, 2024
+[Read more](posts/remember-these-two-functions-of-business/index.llms.md)
 
-Joram Mutenge
+July 19, 2024
 
-2 min
+## [Stand for something](posts/stand-for-something/index.llms.md)
 
-### [How to create an Economist-style chart with plotly](posts/24/1029/index.llms.md)
+[Read more](posts/stand-for-something/index.llms.md)
 
-Oct 29, 2024
+July 18, 2024
 
-Joram Mutenge
+## [How to spend your hard-earned money](posts/how-to-spend-your-hard-earned-money/index.llms.md)
 
-6 min
+[Read more](posts/how-to-spend-your-hard-earned-money/index.llms.md)
 
-### [For men, the secret to longevity is marrying a wife much younger than you](posts/24/1022/index.llms.md)
+July 17, 2024
 
-Oct 22, 2024
+## [Is success taking too long to come to you?](posts/is-success-taking-too-long-to-come-to-you/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/is-success-taking-too-long-to-come-to-you/index.llms.md)
 
-5 min
+July 15, 2024
 
-### [Unicorn dropout founders are rare](posts/24/1015/index.llms.md)
+## [Timing is everything, but be prepared](posts/timing-is-everything-but-be-prepared/index.llms.md)
 
-Oct 15, 2024
+[Read more](posts/timing-is-everything-but-be-prepared/index.llms.md)
 
-Joram Mutenge
+July 14, 2024
 
-9 min
+## [Busy people get things done](posts/busy-people-get-things-done/index.llms.md)
 
-### [On golf and machine learning](posts/24/1008/index.llms.md)
+[Read more](posts/busy-people-get-things-done/index.llms.md)
 
-Oct 8, 2024
+July 13, 2024
 
-Joram Mutenge
+## [My thoughts on The Americans](posts/my-thoughts-on-the-americans/index.llms.md)
 
-2 min
+[Read more](posts/my-thoughts-on-the-americans/index.llms.md)
 
-### [Using variance in product development](posts/24/1001/index.llms.md)
+July 12, 2024
 
-Oct 1, 2024
+## [Help your struggling two](posts/help-your-struggling-two/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/help-your-struggling-two/index.llms.md)
 
-7 min
+July 11, 2024
 
-### [The scramble for .ai domain names](posts/24/0924/index.llms.md)
+## [Ideas are a dime a dozen](posts/ideas-are-a-dime-a-dozen/index.llms.md)
 
-Sep 24, 2024
+[Read more](posts/ideas-are-a-dime-a-dozen/index.llms.md)
 
-Joram Mutenge
+July 10, 2024
 
-5 min
+## [The fantasy of poverty is toxic](posts/the-fantasy-of-poverty-is-toxic/index.llms.md)
 
-### [A simple viz is all you need](posts/24/0917/index.llms.md)
+[Read more](posts/the-fantasy-of-poverty-is-toxic/index.llms.md)
 
-Sep 17, 2024
+July 9, 2024
 
-Joram Mutenge
+## [What were the popular names in the decade you were born?](posts/what-were-the-popular-names-in-the-decade-you-were-born/index.llms.md)
 
-8 min
+[Read more](posts/what-were-the-popular-names-in-the-decade-you-were-born/index.llms.md)
 
-### [Dream big, because dreams are free](posts/24/0910/index.llms.md)
+July 8, 2024
 
-Sep 10, 2024
+## [Who is your number one fan?](posts/who-is-your-number-one-fan/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/who-is-your-number-one-fan/index.llms.md)
 
-5 min
+July 7, 2024
 
-### [Why you should make your time love you](posts/24/0903/index.llms.md)
+## [Things move at the speed of trust](posts/things-move-at-the-speed-of-trust/index.llms.md)
 
-Sep 3, 2024
+[Read more](posts/things-move-at-the-speed-of-trust/index.llms.md)
 
-Joram Mutenge
+July 6, 2024
 
-2 min
+## [Double down on your effort](posts/double-down-on-your-effort/index.llms.md)
 
-### [Why loops are frowned upon in data science](posts/24/0827/index.llms.md)
+[Read more](posts/double-down-on-your-effort/index.llms.md)
 
-Aug 27, 2024
+July 5, 2024
 
-Joram Mutenge
+## [Failing is not losing](posts/failing-is-not-losing/index.llms.md)
 
-5 min
+[Read more](posts/failing-is-not-losing/index.llms.md)
 
-### [There is so much to see in Chicago](posts/24/0825/index.llms.md)
+July 4, 2024
 
-Aug 25, 2024
+## [Different for the sake of it](posts/different-for-the-sake-of-it/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/different-for-the-sake-of-it/index.llms.md)
 
-5 min
+July 3, 2024
 
-### [Freemium is not a business strategy](posts/24/0821/index.llms.md)
+## [Winners of the posit table contest are announced!](posts/winners-of-the-posit-table-contest-are-announced/index.llms.md)
 
-Aug 21, 2024
+[Read more](posts/winners-of-the-posit-table-contest-are-announced/index.llms.md)
 
-Joram Mutenge
+July 2, 2024
 
-1 min
+## [Filling the glass](posts/filling-the-glass/index.llms.md)
 
-### [Effective table presentation with code](posts/24/0820/index.llms.md)
+[Read more](posts/filling-the-glass/index.llms.md)
 
-Aug 20, 2024
+July 1, 2024
 
-Joram Mutenge
+## [Nothing is as good as it seems](posts/nothing-is-as-good-as-it-seems/index.llms.md)
 
-4 min
+[Read more](posts/nothing-is-as-good-as-it-seems/index.llms.md)
 
-### [Why you should learn polars for data analysis](posts/24/0814/index.llms.md)
+June 29, 2024
 
-Aug 14, 2024
+## [The myth of motivation](posts/the-myth-of-motivation/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/the-myth-of-motivation/index.llms.md)
 
-1 min
+June 28, 2024
 
-### [Creating a pareto chart with plotly](posts/24/0813/index.llms.md)
+## [The day your dream came true](posts/the-day-your-dream-came-true/index.llms.md)
 
-Aug 13, 2024
+[Read more](posts/the-day-your-dream-came-true/index.llms.md)
 
-Joram Mutenge
+June 27, 2024
 
-5 min
+## [Time for preparation is over](posts/time-for-preparation-is-over/index.llms.md)
 
-### [Formatting the information displayed in the tooltip of your plotly chats](posts/24/0806/index.llms.md)
+[Read more](posts/time-for-preparation-is-over/index.llms.md)
 
-Aug 6, 2024
+June 26, 2024
 
-Joram Mutenge
+## [A familiar surprise is all you need](posts/familiar-surprise-is-all-you-need/index.llms.md)
 
-4 min
+[Read more](posts/familiar-surprise-is-all-you-need/index.llms.md)
 
-### [Advanced styling in pandas](posts/24/0730/index.llms.md)
+June 25, 2024
 
-Jul 30, 2024
+## [Ask for forgiveness, not permission](posts/ask-for-forgiveness-not-permission/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/ask-for-forgiveness-not-permission/index.llms.md)
 
-7 min
+June 24, 2024
 
-### [The many ways to rename columns in polars](posts/24/0723/index.llms.md)
+## [How I fell in love with the semi-colon](posts/how-i-fell-in-love-with-the-semi-colon/index.llms.md)
 
-Jul 23, 2024
+[Read more](posts/how-i-fell-in-love-with-the-semi-colon/index.llms.md)
 
-Joram Mutenge
+June 23, 2024
 
-2 min
+## [Dress for success — especially if you’re not successful](posts/dress-for-success-especially-if-youre-not-successful/index.llms.md)
 
-### [Poor finishing is worse than not getting started](posts/24/0722/index.llms.md)
+[Read more](posts/dress-for-success-especially-if-youre-not-successful/index.llms.md)
 
-Jul 22, 2024
+June 22, 2024
 
-Joram Mutenge
+## [What is sales?](posts/what-is-sales/index.llms.md)
 
-2 min
+[Read more](posts/what-is-sales/index.llms.md)
 
-### [Should you have a business partner?](posts/24/0721/index.llms.md)
+June 19, 2024
 
-Jul 21, 2024
+## [Unless you have sales, there’s no business](posts/unless-you-have-sales-theres-no-business/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/unless-you-have-sales-theres-no-business/index.llms.md)
 
-2 min
+June 17, 2024
 
-### [Remember these two functions of business](posts/24/0720/index.llms.md)
+## [Loss aversion](posts/loss-aversion/index.llms.md)
 
-Jul 20, 2024
+[Read more](posts/loss-aversion/index.llms.md)
 
-Joram Mutenge
+June 16, 2024
 
-1 min
+## [Practice doesn't make perfect](posts/practice-doesnt-make-perfect/index.llms.md)
 
-### [Stand for something](posts/24/0719/index.llms.md)
+[Read more](posts/practice-doesnt-make-perfect/index.llms.md)
 
-Jul 19, 2024
+June 15, 2024
 
-Joram Mutenge
+## [How to be the world's best boss](posts/how-to-be-the-worlds-best-boss/index.llms.md)
 
-2 min
+[Read more](posts/how-to-be-the-worlds-best-boss/index.llms.md)
 
-### [How to spend your hard-earned money](posts/24/0718/index.llms.md)
+June 14, 2024
 
-Jul 18, 2024
+## [Yesterday, you said tomorrow](posts/yesterday-you-said-tomorrow/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/yesterday-you-said-tomorrow/index.llms.md)
 
-1 min
+June 12, 2024
 
-### [Is success taking too long to come to you?](posts/24/0717/index.llms.md)
+## [Don't wake up in the morning to be average](posts/dont-wake-up-in-the-morning-to-be-average/index.llms.md)
 
-Jul 17, 2024
+[Read more](posts/dont-wake-up-in-the-morning-to-be-average/index.llms.md)
 
-Joram Mutenge
+June 11, 2024
 
-2 min
+## [Create your own dream](posts/create-your-own-dream/index.llms.md)
 
-### [Getting month and day names from datetime with polars](posts/24/0716/index.llms.md)
+[Read more](posts/create-your-own-dream/index.llms.md)
 
-Jul 16, 2024
+June 10, 2024
 
-Joram Mutenge
+## [Do something or make an excuse](posts/do-something-or-make-an-excuse/index.llms.md)
 
-4 min
+[Read more](posts/do-something-or-make-an-excuse/index.llms.md)
 
-### [Timing is everything, but be prepared](posts/24/0715/index.llms.md)
+June 9, 2024
 
-Jul 15, 2024
+## [Is unrequited love a glitch in the human system?](posts/is-unrequited-love-a-glitch-in-the-human-system/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/is-unrequited-love-a-glitch-in-the-human-system/index.llms.md)
 
-1 min
+June 8, 2024
 
-### [Busy people get things done](posts/24/0714/index.llms.md)
+## [Five business questions you must answer](posts/five-business-questions-you-must-answer/index.llms.md)
 
-Jul 14, 2024
+[Read more](posts/five-business-questions-you-must-answer/index.llms.md)
 
-Joram Mutenge
+June 7, 2024
 
-2 min
+## [Other people think your beliefs are silly](posts/other-people-think-your-beliefs-are-silly/index.llms.md)
 
-### [My thoughts on The Americans](posts/24/0713/index.llms.md)
+[Read more](posts/other-people-think-your-beliefs-are-silly/index.llms.md)
 
-Jul 13, 2024
+June 6, 2024
 
-Joram Mutenge
+## [On riding a bicycle with a flat tire](posts/on-riding-a-bicycle-with-a-flat-tire/index.llms.md)
 
-7 min
+[Read more](posts/on-riding-a-bicycle-with-a-flat-tire/index.llms.md)
 
-### [Help your struggling two](posts/24/0712/index.llms.md)
+June 5, 2024
 
-Jul 12, 2024
+## [Dealing with past failures](posts/dealing-with-past-failures/index.llms.md)
 
-Joram Mutenge
+[Read more](posts/dealing-with-past-failures/index.llms.md)
 
-1 min
+June 4, 2024
 
-### [Ideas are a dime a dozen](posts/24/0711/index.llms.md)
+## [Cash flow: the blood of business](posts/cash-flow-the-blood-of-business/index.llms.md)
 
-Jul 11, 2024
+[Read more](posts/cash-flow-the-blood-of-business/index.llms.md)
 
-Joram Mutenge
+June 3, 2024
 
-1 min
+## [Don’t follow your passion](posts/dont-follow-your-passion/index.llms.md)
 
-### [The fantasy of poverty is toxic](posts/24/0710/index.llms.md)
+[Read more](posts/dont-follow-your-passion/index.llms.md)
 
-Jul 10, 2024
+June 2, 2024
 
-Joram Mutenge
+## [Be hard on ideas and soft on people](posts/be-hard-on-ideas-and-soft-on-people/index.llms.md)
 
-3 min
+[Read more](posts/be-hard-on-ideas-and-soft-on-people/index.llms.md)
 
-### [What were the popular names in the decade you were born?](posts/24/0709/index.llms.md)
+June 1, 2024
 
-Jul 9, 2024
+## [A funny little thing about humans](posts/funny-little-thing-about-humans/index.llms.md)
 
-Joram Mutenge
-
-2 min
-
-### [Who is your number one fan?](posts/24/0708/index.llms.md)
-
-Jul 8, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Things move at the speed of trust](posts/24/0707/index.llms.md)
-
-Jul 7, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Double down on your effort](posts/24/0706/index.llms.md)
-
-Jul 6, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Failing is not losing](posts/24/0705/index.llms.md)
-
-Jul 5, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Different for the sake of it](posts/24/0704/index.llms.md)
-
-Jul 4, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Winners of the posit table contest are announced!](posts/24/0703/index.llms.md)
-
-Jul 3, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Filling the glass](posts/24/0702/index.llms.md)
-
-Jul 2, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Nothing is as good as it seems](posts/24/0701/index.llms.md)
-
-Jul 1, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Making beautiful bar charts with matplotlib](posts/24/0630/index.llms.md)
-
-Jun 30, 2024
-
-Joram Mutenge
-
-5 min
-
-### [The myth of motivation](posts/24/0629/index.llms.md)
-
-Jun 29, 2024
-
-Joram Mutenge
-
-1 min
-
-### [The day your dream came true](posts/24/0628/index.llms.md)
-
-Jun 28, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Time for preparation is over](posts/24/0627/index.llms.md)
-
-Jun 27, 2024
-
-Joram Mutenge
-
-1 min
-
-### [A familiar surprise is all you need](posts/24/0626/index.llms.md)
-
-Jun 26, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Ask for forgiveness, not permission](posts/24/0625/index.llms.md)
-
-Jun 25, 2024
-
-Joram Mutenge
-
-1 min
-
-### [How I fell in love with the semi-colon](posts/24/0624/index.llms.md)
-
-Jun 24, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Dress for success — especially if you’re not successful](posts/24/0623/index.llms.md)
-
-Jun 23, 2024
-
-Joram Mutenge
-
-2 min
-
-### [What is sales?](posts/24/0622/index.llms.md)
-
-Jun 22, 2024
-
-Joram Mutenge
-
-3 min
-
-### [My reading journey with the Libby app](posts/24/0621/index.llms.md)
-
-Jun 21, 2024
-
-Joram Mutenge
-
-5 min
-
-### [Native plotting with polars](posts/24/0620/index.llms.md)
-
-Jun 20, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Unless you have sales, there’s no business](posts/24/0619/index.llms.md)
-
-Jun 19, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Read directly from HTML with polars](posts/24/0618/index.llms.md)
-
-Jun 18, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Loss aversion](posts/24/0617/index.llms.md)
-
-Jun 17, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Practice doesn’t make perfect](posts/24/0616/index.llms.md)
-
-Jun 16, 2024
-
-Joram Mutenge
-
-2 min
-
-### [How to be the world’s best boss](posts/24/0615/index.llms.md)
-
-Jun 15, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Yesterday, you said tomorrow](posts/24/0614/index.llms.md)
-
-Jun 14, 2024
-
-Joram Mutenge
-
-1 min
-
-### [My submission to the posit table contest](posts/24/0613/index.llms.md)
-
-Jun 13, 2024
-
-Joram Mutenge
-
-10 min
-
-### [Don’t wake up in the morning to be average](posts/24/0612/index.llms.md)
-
-Jun 12, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Create your own dream](posts/24/0611/index.llms.md)
-
-Jun 11, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Do something or make an excuse](posts/24/0610/index.llms.md)
-
-Jun 10, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Is unrequited love a glitch in the human system?](posts/24/0609/index.llms.md)
-
-Jun 9, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Five business questions you must answer](posts/24/0608/index.llms.md)
-
-Jun 8, 2024
-
-Joram Mutenge
-
-3 min
-
-### [Other people think your beliefs are silly](posts/24/0607/index.llms.md)
-
-Jun 7, 2024
-
-Joram Mutenge
-
-2 min
-
-### [On riding a bicycle with a flat tire](posts/24/0606/index.llms.md)
-
-Jun 6, 2024
-
-Joram Mutenge
-
-3 min
-
-### [Dealing with past failures](posts/24/0605/index.llms.md)
-
-Jun 5, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Cash flow: the blood of business](posts/24/0604/index.llms.md)
-
-Jun 4, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Don’t follow your passion](posts/24/0603/index.llms.md)
-
-Jun 3, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Be hard on ideas and soft on people](posts/24/0602/index.llms.md)
-
-Jun 2, 2024
-
-Joram Mutenge
-
-2 min
-
-### [A funny little thing about humans](posts/24/0601/index.llms.md)
-
-Jun 1, 2024
-
-Joram Mutenge
-
-1 min
-
-### [Make work your friend](posts/24/0531/index.llms.md)
+[Read more](posts/funny-little-thing-about-humans/index.llms.md)
 
 May 31, 2024
 
-Joram Mutenge
+## [Make work your friend](posts/make-work-your-friend/index.llms.md)
 
-2 min
-
-### [You shouldn’t be punished forever for your mistake](posts/24/0530/index.llms.md)
+[Read more](posts/make-work-your-friend/index.llms.md)
 
 May 30, 2024
 
-Joram Mutenge
+## [You shouldn't be punished forever for your mistake](posts/you-shouldnt-be-punished-forever-for-your-mistake/index.llms.md)
 
-1 min
-
-### [Is evil innate or learned?](posts/24/0529/index.llms.md)
+[Read more](posts/you-shouldnt-be-punished-forever-for-your-mistake/index.llms.md)
 
 May 29, 2024
 
-Joram Mutenge
+## [Is evil innate or learned?](posts/is-evil-innate-or-learned/index.llms.md)
 
-2 min
-
-### [So you want to be in charge?](posts/24/0528/index.llms.md)
+[Read more](posts/is-evil-innate-or-learned/index.llms.md)
 
 May 28, 2024
 
-Joram Mutenge
+## [So you want to be in charge?](posts/so-you-want-to-be-in-charge/index.llms.md)
 
-1 min
-
-### [Create dataframe from clipboard content](posts/24/0527/index.llms.md)
-
-May 27, 2024
-
-Joram Mutenge
-
-2 min
-
-### [Are the links on your resume hurting your chances of landing an interview?](posts/24/0526/index.llms.md)
+[Read more](posts/so-you-want-to-be-in-charge/index.llms.md)
 
 May 26, 2024
 
-Joram Mutenge
+## [Are the links on your resume hurting your chances of landing an interview?](posts/are-the-links-on-your-resume-hurting-your-chances-of-landing-an-interview/index.llms.md)
 
-2 min
-
-### [RIP data science projects](posts/24/0525/index.llms.md)
+[Read more](posts/are-the-links-on-your-resume-hurting-your-chances-of-landing-an-interview/index.llms.md)
 
 May 25, 2024
 
-Joram Mutenge
+## [RIP data science projects](posts/rip-data-science-projects/index.llms.md)
 
-2 min
-
-### [When does it hurt the most?](posts/24/0524/index.llms.md)
+[Read more](posts/rip-data-science-projects/index.llms.md)
 
 May 24, 2024
 
-Joram Mutenge
+## [When does it hurt the most?](posts/when-does-it-hurt-the-most/index.llms.md)
 
-2 min
-
-### [A life lesson from fashion](posts/24/0523/index.llms.md)
+[Read more](posts/when-does-it-hurt-the-most/index.llms.md)
 
 May 23, 2024
 
-Joram Mutenge
+## [A life lesson from fashion](posts/life-lesson-from-fashion/index.llms.md)
 
-2 min
-
-### [Genius is no guarantee of wisdom](posts/24/0520/index.llms.md)
+[Read more](posts/life-lesson-from-fashion/index.llms.md)
 
 May 20, 2024
 
-Joram Mutenge
+## [Genius is no guarantee of wisdom](posts/genius-is-no-guarantee-of-wisdom/index.llms.md)
 
-2 min
-
-### [A piano-playing dog](posts/24/0518/index.llms.md)
+[Read more](posts/genius-is-no-guarantee-of-wisdom/index.llms.md)
 
 May 18, 2024
 
-Joram Mutenge
+## [A piano-playing dog](posts/piano-playing-do/index.llms.md)
 
-3 min
+[Read more](posts/piano-playing-do/index.llms.md)
+
+[See more posts »](?page=2)

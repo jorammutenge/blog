@@ -1,6 +1,5 @@
 ---
 title: "The older you grow, the smarter your parents become"
-author: '{{< var author >}}'
 date: '2025-05-12'
 ---
 

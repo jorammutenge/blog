@@ -1,6 +1,5 @@
 ---
 title: "Don't try to know too much before doing something"
-author: '{{< var author >}}'
 date: '2025-04-14'
 ---
 

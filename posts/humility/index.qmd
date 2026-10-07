@@ -1,6 +1,5 @@
 ---
 title: "When humility becomes doubt"
-author: '{{< var author >}}'
 date: '2025-05-07'
 ---
 

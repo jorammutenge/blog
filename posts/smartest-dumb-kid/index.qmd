@@ -1,6 +1,5 @@
 ---
 title: "The smartest dumb kid in a dumb class"
-author: '{{< var author >}}'
 date: '2025-01-26'
 ---
 

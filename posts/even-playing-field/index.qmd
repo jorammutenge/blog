@@ -1,6 +1,5 @@
 ---
 title: "There's no such thing as an even playing field"
-author: '{{< var author >}}'
 date: '2025-03-20'
 ---
 

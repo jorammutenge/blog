@@ -1,6 +1,5 @@
 ---
 title: "Feeling pain and suffering is a moment of truth"
-author: '{{< var author >}}'
 date: '2025-03-14'
 ---
 

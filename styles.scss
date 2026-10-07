@@ -1,0 +1,491 @@
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "Harmonia Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$headings-font-weight: 700;
+$body-bg: #ffffff;
+$body-color: #1d1d27;
+$link-color: #4a4a57;
+$font-size-root: 17px;
+$line-height-base: 1.6;
+
+/*-- scss:rules --*/
+// Harmonia Sans, served from /fonts. Regular for text, Bold for titles,
+// SemiBold Condensed for the "Read more" and "Subscribe" buttons.
+@font-face {
+  font-family: "Harmonia Sans";
+  src: url("/fonts/Harmonia Sans W01 Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Harmonia Sans";
+  src: url("/fonts/Harmonia Sans W01 Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Harmonia Sans SemiBold Condensed";
+  src: url("/fonts/harmonia-sans-pro-cyrillic-semi-bold-condensed.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+$button-font: "Harmonia Sans SemiBold Condensed", $font-family-sans-serif;
+// Colours: light values first, dark-mode values in the dark-colors mixin below.
+// Dark mode follows the visitor's system setting, unless they pick a mode with
+// the sun/moon toggle (_includes/theme-toggle.html sets data-theme on <html>).
+:root {
+  color-scheme: light;
+  --icon-moon: block;        // toggle shows a moon in light mode...
+  --icon-sun: none;
+  --coffee-light: block;     // Buy Me a Coffee logo for light mode...
+  --coffee-dark: none;
+  --bg: #ffffff;
+  --text: #1d1d27;
+  --muted: #6b6b76;          // name, bio, dates
+  --quote-text: #6b6b76;     // block quotes
+  --link: #4a4a57;           // links outside post text (bio, RSS)
+  --link-underline: rgba(74, 74, 87, .45);
+  --post-link: #3172dc;      // links in post text
+  --post-link-hover: #2257a8;
+  --hairline: #e3e3e8;       // divider lines, block quote bar
+  --control-border: #d6d6dc; // subscribe box, "Read more"
+  --input-bg: #ffffff;
+  --placeholder: #9a9aa3;
+  --button-bg: #f1f1f3;
+  --button-text: #44444f;
+  --button-hover: #e7e7ea;
+  --pill-hover: #f4f4f6;
+  --card-bg: #ffffff;
+  --card-border: #ececf0;
+  --card-shadow: 0 2px 10px rgba(20, 20, 40, .10);
+  --search-backdrop: rgba(29, 29, 39, .4);   // behind the search panel
+  --search-selected: #e8f0fc;                // highlighted search result
+  --search-mark: rgba(49, 114, 220, .18);    // matched words in results
+}
+
+@mixin dark-colors {
+    color-scheme: dark;
+    --icon-moon: none;       // ...and a sun in dark mode
+    --icon-sun: block;
+    --coffee-light: none;    // ...and for dark mode
+    --coffee-dark: block;
+    --bg: #241f31;
+    --text: #ffffff;
+    --muted: #a5a7a9;
+    --quote-text: #ebe9e6;
+    --link: #c3c1c8;
+    --link-underline: rgba(195, 193, 200, .45);
+    --post-link: #65a0f8;
+    --post-link-hover: #8fbafa;
+    --hairline: #433c4c;
+    --control-border: #433c4c;
+    --input-bg: #241f31;
+    --placeholder: #999b9e;
+    --button-bg: #352e40;
+    --button-text: #c3c1c8;
+    --button-hover: #3f374c;
+    --pill-hover: #2e283c;
+    --card-bg: #241f31;
+    --card-border: #433c4c;
+    --card-shadow: 0 2px 10px rgba(0, 0, 0, .35);
+    --search-backdrop: rgba(0, 0, 0, .55);
+    --search-selected: #332c45;
+    --search-mark: rgba(101, 160, 248, .30);
+}
+
+// System is dark and the visitor hasn't picked light...
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include dark-colors; }
+}
+// ...or the visitor picked dark.
+:root[data-theme="dark"] { @include dark-colors; }
+
+$muted: var(--muted);
+$masthead-top: 0rem;  // space above the avatar, same on home and post pages
+$hairline: var(--hairline);
+$column-width: 856px; // ~820px of text + 16px gutters
+$text-size: 1.15rem;   // ~19px reading text, matches DHH
+$text-leading: 1.47;  // ~28px between lines
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+// One centered column for everything.
+main.content,
+.masthead,
+.bio,
+.about-heading {
+  max-width: $column-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#quarto-content { display: block; padding-top: 0; }
+main.content { margin-top: 0 !important; }
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-underline-offset: 2px;
+  &:hover { color: var(--text); text-decoration-color: currentColor; }
+}
+
+/* ---------- Top-right tools: light/dark toggle, then search ---------- */
+.site-tools {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.theme-toggle {
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  &:hover { color: var(--text); background: var(--pill-hover); }
+  svg {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .icon-moon { display: var(--icon-moon); }
+  .icon-sun { display: var(--icon-sun); }
+}
+
+// Quarto's search button (magnifying glass), sized and coloured to match the toggle.
+#quarto-search.type-overlay {
+  width: 36px;
+  height: 36px;
+  .aa-Autocomplete, .aa-DetachedSearchButton {
+    width: 36px;
+    height: 36px;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .aa-DetachedSearchButton:hover { background: var(--pill-hover); }
+  .aa-DetachedSearchButtonIcon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .aa-DetachedSearchButton:hover .aa-DetachedSearchButtonIcon { color: var(--text); }
+  .aa-DetachedSearchButtonIcon svg { width: 20px; height: 20px; }
+  .aa-DetachedSearchButtonPlaceholder, .aa-DetachedSearchButtonQuery { display: none; }
+}
+
+// Quarto's search panel, recoloured with the site's light/dark colours.
+// (`body` prefix and a few !important: Quarto's own rules are very specific.)
+body {
+  .aa-DetachedOverlay { background-color: var(--search-backdrop); }
+  .aa-DetachedContainer { background: var(--bg); box-shadow: 0 0 0 1px var(--hairline); }
+  .aa-DetachedContainer .aa-Panel { background-color: var(--bg); }
+  .aa-DetachedFormContainer { background-color: var(--bg); border-bottom-color: var(--hairline); }
+  .aa-DetachedFormContainer .aa-Form {
+    background-color: var(--input-bg);
+    border-color: var(--control-border);
+    color: var(--text);
+    .aa-InputWrapper .aa-Input { color: var(--text); }
+    .aa-InputWrapper .aa-Input::placeholder { color: var(--placeholder); }
+    .aa-Label svg, .aa-SubmitIcon, .aa-ClearButton { color: var(--muted) !important; }
+  }
+  .aa-DetachedCancelButton { color: var(--muted); }
+  .aa-DetachedOverlay .aa-SourceHeader .search-result-header {
+    background-color: var(--button-bg);
+    color: var(--muted);
+  }
+  .aa-DetachedOverlay li.aa-Item[aria-selected] .search-item {
+    background-color: var(--bg);
+    color: var(--text);
+    border-color: var(--hairline);
+    * { color: inherit !important; background-color: transparent !important; }
+    .search-result-title-container { background-color: transparent !important; }
+    mark.search-match, .search-match.mark { background: var(--search-mark) !important; }
+  }
+  .aa-DetachedOverlay li.aa-Item[aria-selected=true] .search-item { background-color: var(--search-selected); }
+  .aa-DetachedOverlay .aa-Item .search-result-doc { border-top-color: var(--hairline); }
+}
+
+/* ---------- Masthead (avatar + name) ---------- */
+.masthead { padding-top: $masthead-top; text-align: center; }
+
+.masthead-link {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .75rem;
+  text-decoration: none;
+  &:hover { text-decoration: none; }
+}
+
+.avatar {
+  width: 91px;
+  height: 91px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.site-name {
+  font-family: $button-font;
+  font-size: .88rem;
+  font-weight: 400;
+  letter-spacing: .305em; // wider than before: the condensed font is narrower
+  text-transform: uppercase;
+  color: $muted;
+}
+
+/* ---------- Bio + subscribe ---------- */
+.bio {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.55;
+  color: $muted;
+  margin-top: .75rem;
+  p { margin-bottom: .75rem; }
+}
+
+.bio-rule {
+  width: 110px;
+  margin: 1.25rem auto;
+  border: 0;
+  border-top: 1px solid $hairline;
+  opacity: 1;
+}
+
+// Buy Me a Coffee button: end of posts only, where it replaces the rule.
+.coffee { display: none; }
+body:has(.post-header) {
+  .bio-rule { display: none; }
+  .coffee {
+    display: block;
+    width: fit-content;
+    margin: .5rem auto 1rem;
+    img { height: 40px; width: auto; }
+    .coffee-light { display: var(--coffee-light); }
+    .coffee-dark { display: var(--coffee-dark); }
+    &:hover { opacity: .80; }
+  }
+}
+
+.subscribe-note { font-size: 1rem; margin-bottom: .6rem !important; }
+
+.subscribe {
+  display: inline-flex;
+  border: 1px solid var(--control-border);
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--input-bg);
+
+  input {
+    border: 0;
+    outline: 0;
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    width: 225px;
+    color: var(--text);
+    background: transparent;
+    &::placeholder { color: var(--placeholder); }
+  }
+  button {
+    border: 0;
+    border-left: 1px solid var(--control-border);
+    background: var(--button-bg);
+    color: var(--button-text);
+    font-family: $button-font;
+    font-size: .95rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    &:hover { background: var(--button-hover); }
+  }
+}
+
+/* ---------- Home page post cards ---------- */
+.quarto-listing { margin-top: 3.5rem; margin-bottom: 4rem; }
+
+.post-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--card-shadow);
+  padding: 2.25rem 2rem 2rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.post-date {
+  font-size: .95rem;
+  color: $muted;
+  margin-bottom: .25rem;
+}
+
+main.content .post-card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  margin: 0 0 1.25rem;
+  border: 0;
+  a { color: var(--text); text-decoration: none; font-weight: inherit; }
+  a:hover { text-decoration: underline; }
+}
+
+.post-excerpt {
+  text-align: left;
+  hyphens: auto;
+  font-size: $text-size;
+  line-height: $text-leading;
+  min-height: 5em;
+}
+
+.read-more-wrap { margin-top: 2rem; }
+
+.read-more {
+  display: inline-block;
+  font-family: $button-font;
+  font-size: .95rem;
+  color: var(--button-text);
+  text-decoration: none;
+  border: 1px solid var(--control-border);
+  border-radius: 999px;
+  padding: .25rem .65rem;
+  &:hover { background: var(--pill-hover); text-decoration: none; }
+}
+
+/* ---------- "See more posts" (home page, after 30 posts) ---------- */
+.post-card.is-more { display: none; }
+
+.see-more-wrap { text-align: center; margin-top: 2.5rem; }
+
+.see-more {
+  display: inline-block;
+  text-decoration: none;
+  font-family: $button-font;
+  font-size: 1rem;
+  color: var(--text);
+  background: transparent;
+  border: 1.5px solid var(--text);
+  border-radius: 999px;
+  padding: .35rem 1rem;
+  cursor: pointer;
+  &:hover { color: var(--text); background: var(--pill-hover); text-decoration: none; }
+}
+
+/* ---------- Single post ---------- */
+#title-block-header.post-header {
+  text-align: center;
+  padding-top: $masthead-top;
+  margin-bottom: 2rem;
+
+  .masthead-link { margin-bottom: 2.5rem; }
+  .post-date { font-size: 1rem; margin-bottom: .3rem; }
+  .title {
+    font-size: 2.75rem;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    line-height: 1.2;
+    margin: 0;
+  }
+}
+
+main.content {
+  hyphens: auto;
+  font-size: $text-size;
+  line-height: $text-leading;
+  p { margin-bottom: 1.1rem; }
+  h2, h3 { border: 0; font-weight: 700; margin-top: 2rem; }
+  blockquote {
+    // font-style: italic;
+    font-size: 1rem;
+    border-left: 3px solid $hairline;
+    padding-left: 1rem;
+    color: var(--quote-text);
+  }
+}
+
+// Figures in posts: caption centred under the image, close to it, in the
+// block quote colour (light and dark).
+main.content .quarto-figure {
+  figure > p { margin-bottom: 0; }   // the paragraph wrapping the image
+  .figure-img { margin-bottom: 0; }
+  figcaption {
+    text-align: center;
+    margin-top: .4rem;
+    color: var(--quote-text);
+  }
+}
+
+// Links in the post body only: everything after the post header on a post page.
+// Home page, bio and header links keep the default grey style.
+#title-block-header.post-header ~ * a {
+  color: var(--post-link);
+  text-decoration-color: var(--post-link);
+  &:hover { color: var(--post-link-hover); text-decoration-color: currentColor; }
+}
+
+.about-heading {
+  text-align: center;
+  margin-top: 3rem;
+  font-family: $button-font;
+  font-size: .9rem;
+  letter-spacing: .283em; // wider than before: the condensed font is narrower
+  text-transform: uppercase;
+  color: $muted;
+}
+
+// Gap between "About Joram Mutenge" and the bio at the end of posts.
+// (The home page gap is set by .bio's margin-top.)
+.about-heading + .bio { margin-top: 0; }
+
+// Space below the subscribe form at the end of posts. Padding, not margin:
+// a bottom margin here leaks out of the page container and has no effect.
+body:has(.post-header) .bio { padding-bottom: 1.5rem; }
+
+@media (max-width: 576px) {
+  .post-card { padding: 1.75rem 1.25rem 1.5rem; }
+  .post-header .title { font-size: 1.75rem; }
+  .subscribe input { width: 170px; }
+}
+
+/* ---------- Check your inbox (shown after subscribing) ---------- */
+.inbox-note {
+  text-align: center;
+  color: $muted;
+  font-size: 1.1rem;
+  line-height: 1.55;
+  margin: 2rem auto 4rem;
+  max-width: 34rem;
+  h2 { color: var(--text); font-size: 1.5rem; margin-bottom: 1rem; border: 0; }
+  strong { color: var(--text); }
+}

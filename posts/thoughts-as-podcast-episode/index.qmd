@@ -1,8 +1,6 @@
 ---
 title: "What if you let your thoughts play out like a podcast episode?"
-author: '{{< var author >}}'
 date: '2025-06-10'
-categories: [essay]
 ---
 
 When my AirPods stopped working, I felt frustrated at first. I had been using them constantly for over two years. They were my companions during morning runs, my focus tools during work, and my escape during long commutes. I immediately went online to order a replacement pair.

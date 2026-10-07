@@ -1,13 +1,6 @@
 ---
 title: "Is a breakup more painful than unrequited love?"
-subtitle: "No it's not"
-author: '{{< var author >}}'
 date: 'August 16, 2025'
-toc: true
-toc-title: 'Sections'
-toc-location: right
-toc-depth: 3
-categories: [essay]
 ---
 
 A few days ago, I stumbled upon a [reddit discussion](https://www.reddit.com/r/love/comments/1mm9hnr/which_one_is_more_painful_a_breakup_or_unrequited/) where a user asked the question: which one is more painful, a breakup or unrequited love? I've thought about this question a lot, and here's my take on it: unrequited love is more painful.

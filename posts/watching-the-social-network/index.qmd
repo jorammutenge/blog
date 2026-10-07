@@ -1,14 +1,9 @@
 ---
 title: "What you can learn from my experience watching The Social Network"
-author: '{{< var author >}}'
 date: '2025-01-18'
-categories: [movie]
-image: image.png
 ---
 
-::: {.gray-text .center-text}
 ![movie scene: a hackathon at Harvard](image.png){fig-align="center"}
-:::
 
 In 2014, as a young teenager, I watched *The Social Network* for the first time. I know the movie had come out four years earlier, but that's beside the point. The point is that I was psyched—like most teenagers who watched the movie. I, too, wanted to learn how to program computers so I could make millions of dollars like Mark Zuckerberg. Seeing Mark build a company from his Harvard dorm room was inspiring, and I remember thinking, *Well, if he can do it, so can I.*  
 

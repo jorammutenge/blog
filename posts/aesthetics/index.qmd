@@ -1,6 +1,5 @@
 ---
 title: "Obsess over aesthetics, because they matter!"
-author: '{{< var author >}}'
 date: '2025-04-12'
 ---
 

@@ -1,14 +1,8 @@
+[![Joram Mutenge](../../images/avatar.jpg) Joram Mutenge](../../)
+
+June 20, 2026
+
 # Would I date me?
-
-essay
-
-Author
-
-Joram Mutenge
-
-Published
-
-2026-06-20
 
 I’ve reached a point in my life where I’m ready for a serious relationship, but finding one has been far harder than I expected. I don’t meet many women in my day‑to‑day life, and the few I do meet rarely spark the kind of attraction I’m looking for. After years of trying (with little to show for it) I found myself wondering whether the issue wasn’t the dating world, but me.
 
@@ -34,7 +28,7 @@ So I abandoned Plan B. If I’m going to match with someone, it should be someon
 
 Through all this, I learned something important about myself: I’m not looking for perfection, but I am looking for connection. Two things matter to me above all else:
 
-1.  I need to be physically attracted to her.  
+1.  I need to be physically attracted to her.\
 2.  Our conversations need to feel natural and mutual.
 
 I love discussing ideas, debating, exploring thoughts. I don’t need a philosopher for a partner, but I do need someone who contributes to the conversation rather than waiting for me to carry it. I want ease, not effort.

@@ -1,66 +1,28 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: docs   # GitHub Pages serves main/docs
+  resources:
+    - fonts/*.woff2
 
 website:
-  llms-txt: true
   title: "Joram Mutenge"
-  favicon: images/favicon.png
-  site-url: https://www.jorammutenge.com
-  page-navigation: true
-  google-analytics: 
+  site-url: "https://www.jorammutenge.com"
+  description: "Writing by Joram Mutenge."
+  llms-txt: true   # writes llms.txt for AI tools
+  google-analytics:
     tracking-id: "G-5Y1ZXKXMBX"
     anonymize-ip: true
-  navbar:
-    title: |
-      JORAM<span class='icon-line'></span>MUTENGE<br>
-      <span style="font-size: 17px; display: block; text-align: center; text-transform: capitalize;">Secret Intellectual</span>
-    right:
-      - about.qmd
-      - books.qmd
-      - text: Substack
-        href: https://financical.substack.com/
-        target: _blank
-      - text: Podcast
-        href: https://open.spotify.com/show/1An3ofQtg1XsvdYqwrY4Lq
-        target: _blank
-      - text: Udemy
-        href: https://www.udemy.com/user/joram-mutenge/
-        target: _blank
-      - text: '{{< fa envelope >}}'
-        href: mailto:50ttdz@gmail.com
-      - text: '{{< fa brands linkedin >}}'
-        href: https://www.linkedin.com/in/jorammutenge/
-        target: _blank
-      # - text: '{{< fa brands bluesky >}}'
-      #   href: https://bsky.app/profile/jorammutenge.com
-      #   target: _blank
-      # - icon: rss
-      #   href: index.xml    
-  page-footer: 
-    left: Copyright © 2026, Secret Intellectual
-    center:
-      - icon: envelope
-        text: "☕ Buy me a coffee"
-        href: https://www.buymeacoffee.com/jorammutenge
+  favicon: images/favicon.png
+  search:
+    type: overlay   # magnifying glass that opens a search panel
 
 format:
   html:
-    theme: 
-      light: assets/ek-theme-light.scss
-      dark: assets/ek-theme-dark.scss
-    css: assets/ek-styles.css
-    code-block-border-left: true
-    highlight-style: 
-      light: assets/ek-light.theme
-      dark: assets/ek-dark.theme
+    theme: [default, styles.scss]
+    page-layout: article
+    lang: en
     smooth-scroll: true
-    link-external-newwindow: true
-
-editor: source
-    
-extra-files:
-  - CNAME
-
-execute:
-  freeze: true
+    toc: false
+    anchor-sections: false
+    include-in-header: _includes/theme-toggle.html
+    include-before-body: _includes/site-tools.html

@@ -1,8 +1,6 @@
 ---
 title: 'A lesson every young career person should know'
-author: '{{< var author >}}'
 date: '2024-12-16'
-categories: [career]
 ---
 
 This is meant for people just starting their careers or holding junior positions. Navigating work life can be challenging, especially when you want to make an impact. We all want our hard work and accomplishments to be acknowledged and rewarded.

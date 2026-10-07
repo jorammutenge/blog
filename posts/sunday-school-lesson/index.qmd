@@ -1,13 +1,6 @@
 ---
 title: "A sunday school lesson I struggled with"
-subtitle: "When doing the right thing feels bad"
-author: '{{< var author >}}'
 date: '2025-07-12'
-toc: true
-toc-title: 'Sections'
-toc-location: right
-toc-depth: 3
-categories: [essay]
 ---
 
 When I was 10 years old, my Sunday school teacher said something that didn’t sit well with me. It wasn’t because what he said was wrong, but because it was right, yet it felt unfair.

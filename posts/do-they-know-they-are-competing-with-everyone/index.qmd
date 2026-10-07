@@ -1,6 +1,5 @@
 ---
 title: "Do they know they're competing with everyone in the world?"
-author: '{{< var author >}}'
 date: '2025-01-03'
 ---
 

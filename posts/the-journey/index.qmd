@@ -1,6 +1,5 @@
 ---
 title: "Is the journey really better than the destination?"
-author: '{{< var author >}}'
 date: '2025-04-20'
 ---
 

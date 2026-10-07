@@ -1,0 +1,6 @@
+date-format: long
+template-partials:
+  - ../_includes/title-block.html
+include-after-body:
+  - ../_includes/about.html
+  - ../_includes/bio.html

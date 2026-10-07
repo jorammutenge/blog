@@ -1,6 +1,5 @@
 ---
 title: "To teach is to learn"
-author: '{{< var author >}}'
 date: '2025-02-19'
 ---
 

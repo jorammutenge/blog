@@ -1,6 +1,5 @@
 ---
 title: "The two dimensions of authenticity"
-author: '{{< var author >}}'
 date: '2025-03-16'
 ---
 

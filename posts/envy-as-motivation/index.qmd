@@ -1,12 +1,6 @@
 ---
 title: "Envy is the most powerful source of motivation"
-author: '{{< var author >}}'
 date: 'August 09, 2025'
-toc: true
-toc-title: 'Sections'
-toc-location: right
-toc-depth: 3
-categories: [essay]
 ---
 
 Jealousy is not the same as envy, but most people treat them as if they are. The simplest way I can distinguish the two is: jealousy asks, *Why does it have to be him or her?* Envy, on the other hand, asks, *Why can't it be me?* This is a very important distinction.

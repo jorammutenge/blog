@@ -1,12 +1,6 @@
 ---
 title: "Give people your advice and then follow it"
-author: '{{< var author >}}'
 date: 'September 19, 2025'
-toc: true
-toc-title: 'Sections'
-toc-location: right
-toc-depth: 3
-categories: [essay]
 ---
 
 Have you ever asked someone for advice? And when they gave it to you, did you actually use it? The truth is, most advice, solicited or unsolicited, ends up falling on deaf ears. In fact, giving advice can often feel like a waste of time because the chances of someone following it are close to zero. But that doesn’t mean giving advice is pointless. In fact, there’s an important reason you *should* keep doing it.

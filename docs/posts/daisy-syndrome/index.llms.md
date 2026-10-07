@@ -1,16 +1,8 @@
-# The Daisy syndrome
-
-A lesson from Downton Abbey
-
-essay
-
-Author
-
-Joram Mutenge
-
-Published
+[![Joram Mutenge](../../images/avatar.jpg) Joram Mutenge](../../)
 
 June 3, 2026
+
+# The Daisy syndrome
 
 To apply logic to matters of the heart is to misunderstand love entirely. Our feelings do not always obey reason. Sometimes we are surprised by the people we fall for. We may know they are not right for us. We may even believe we deserve better. Yet our emotions cling to them anyway. Love is full of contradictions, and perhaps that is one of its defining mysteries.
 

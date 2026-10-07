@@ -1,11 +1,6 @@
 ---
 title: "The types of lies we tell"
-author: '{{< var author >}}'
 date: '2025-02-21'
-toc: true
-toc-title: 'Sections'
-toc-location: left
-toc-depth: 3
 ---
 
 The singer Drake has a line that says:

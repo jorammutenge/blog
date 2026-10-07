@@ -1,16 +1,8 @@
-# When a simple idea is taken seriously
-
-Mohnish Pabrai
-
-essay
-
-Author
-
-Joram Mutenge
-
-Published
+[![Joram Mutenge](../../images/avatar.jpg) Joram Mutenge](../../)
 
 May 24, 2026
+
+# When a simple idea is taken seriously
 
 Original ideas are rare. Most people go through life without ever having one. Others have a few, but they’re useless. Very few people come up with original ideas that actually work.
 
@@ -84,5 +76,5 @@ Don’t just admire successful people. Do what they do.
 
 That’s what it means to find a simple idea and take it seriously.
 
-*Take the road less traveled*  
+*Take the road less traveled*\
 **MFM**

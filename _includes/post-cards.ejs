@@ -1,0 +1,45 @@
+<% const pageSize = 30; // posts shown before (and per click of) "See more posts" %>
+<% items.forEach((item, i) => { %>
+
+```{=html}
+<article class="post-card<%= i >= pageSize ? ' is-more' : '' %>" <%= metadataAttrs(item) %>>
+  <% if (item.date) { %><div class="post-date"><%= item.date %></div><% } %>
+  <h2 class="post-card-title"><a href="<%- item.path %>"><%= item.title %></a></h2>
+  <div class="post-excerpt listing-description">
+```
+
+<%= item.description %>
+
+```{=html}
+  </div>
+  <div class="read-more-wrap"><a class="read-more" href="<%- item.path %>">Read more</a></div>
+</article>
+```
+
+<% }) %>
+<% if (items.length > pageSize) { %>
+
+```{=html}
+<div class="see-more-wrap">
+  <a class="see-more" href="?page=2">See more posts &raquo;</a>
+</div>
+<script>
+  // Show one page of posts (?page=N), like DHH's site. Each click loads the
+  // next page, so the visitor lands at the top with only the new posts.
+  (function () {
+    var size = <%= pageSize %>;
+    var cards = document.querySelectorAll(".post-card");
+    var pages = Math.ceil(cards.length / size);
+    var page = parseInt(new URLSearchParams(location.search).get("page"), 10) || 1;
+    page = Math.min(Math.max(page, 1), pages);
+    cards.forEach(function (card, i) {
+      card.classList.toggle("is-more", Math.floor(i / size) !== page - 1);
+    });
+    var more = document.querySelector(".see-more");
+    if (page >= pages) more.parentNode.remove();
+    else more.href = "?page=" + (page + 1);
+  })();
+</script>
+```
+
+<% } %>
