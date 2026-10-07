@@ -357,6 +357,7 @@ main.content .post-card-title {
   letter-spacing: -.01em;
   margin: 0 0 1.25rem;
   border: 0;
+  hyphens: manual; // whole words wrap to the next line
   a { color: var(--text); text-decoration: none; font-weight: inherit; }
   a:hover { text-decoration: underline; }
 }
@@ -416,6 +417,7 @@ main.content .post-card-title {
     letter-spacing: -.015em;
     line-height: 1.2;
     margin: 0;
+    hyphens: manual; // whole words wrap to the next line
   }
 }
 
