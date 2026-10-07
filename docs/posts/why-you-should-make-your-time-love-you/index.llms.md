@@ -4,8 +4,6 @@ September 3, 2024
 
 # Why you should make your time love you
 
-🕘
-
 We all have 24 hours in a day, yet some people accomplish more amazing things than others. What is it with time that makes it an obedient servant to some people and a disobedient servant to others? Is it biased towards certain kinds of people? Are we even in control of our time, or is time in control of us?
 
 I’ve been a victim of time management or rather time mismanagement. Obsessed with productivity, I’ve tried all sorts of gimmicks and tricks to feed the productivity dragon, as Cal Newport would put it.
