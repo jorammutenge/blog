@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs   # GitHub Pages serves main/docs
+  post-render: _redirects.py   # old post addresses that moved to conterval.com
   resources:
     - fonts/*.woff2
 
