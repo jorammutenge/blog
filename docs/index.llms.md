@@ -10,6 +10,12 @@ Subscribe to get future posts via email (or grab the [RSS feed](./index.xml))
 
 Subscribe
 
+October 8, 2026
+
+## [Life is all about solving problems](posts/life-is-about-solving-problems/index.llms.md)
+
+[Read more](posts/life-is-about-solving-problems/index.llms.md)
+
 October 6, 2026
 
 ## [Where are the modern Renaissance men and women?](posts/where-are-the-modern-renaissance-men-and-women/index.llms.md)
