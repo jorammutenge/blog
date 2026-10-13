@@ -1,0 +1,15 @@
+[![Joram Mutenge](../../images/avatar.jpg) Joram Mutenge](../../)
+
+October 13, 2026
+
+# What’s normal today will be abnormal in the future
+
+Two hundred years ago, the majority of people worked in the fields because most of the economy was based on farming. This meant they had to work with their hands and feet, expending physical energy to get the job done. People did not enjoy toiling in the fields and performing repetitive manual labor, but they had to do it if they wanted to put food on the table.
+
+Today, the economy is vastly different. Most people are knowledge workers. They sit in front of computers, scrolling, clicking, and typing throughout the workday. We now know that sitting for long periods is not healthy. The human body needs regular physical activity. In the past, physical exercise was naturally built into people’s work on farms. For most people today, however, that is no longer the case.
+
+Here is something to think about: if you traveled back 200 years and told people working on farms that, in the future, many people would spend their days sitting at desks, they would probably find it hard to believe. If you then told them that these same people would voluntarily go to a building filled with strangers to lift heavy metal bars, sweat, and exhaust themselves, and that they would actually pay for the privilege, they might think you were completely mad.
+
+Yet today, millions of people around the world have gym memberships. They pay money to exercise, sweat, and make their bodies tired. What sounds absurd in one era can become perfectly normal in another.
+
+This makes me wonder: what things seem abnormal today that will become the norm 25, 50, or even 100 years from now? The world is changing rapidly, and artificial intelligence is only accelerating that change. What will the world look like in 2100? Obviously, we cannot know for sure, but it is an interesting thought experiment to consider.

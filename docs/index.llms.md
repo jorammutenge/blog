@@ -10,6 +10,12 @@ Subscribe to get future posts via email (or grab the [RSS feed](./index.xml))
 
 Subscribe
 
+October 13, 2026
+
+## [What's normal today will be abnormal in the future](posts/whats-normal-today-will-be-abnormal-in-the-future/index.llms.md)
+
+[Read more](posts/whats-normal-today-will-be-abnormal-in-the-future/index.llms.md)
+
 October 8, 2026
 
 ## [Life is all about solving problems](posts/life-is-about-solving-problems/index.llms.md)
