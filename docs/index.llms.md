@@ -10,6 +10,12 @@ Subscribe to get future posts via email (or grab the [RSS feed](./index.xml))
 
 Subscribe
 
+October 15, 2026
+
+## [Hooked on external validation](posts/hooked-on-external-validation/index.llms.md)
+
+[Read more](posts/hooked-on-external-validation/index.llms.md)
+
 October 13, 2026
 
 ## [What's normal today will be abnormal in the future](posts/whats-normal-today-will-be-abnormal-in-the-future/index.llms.md)
