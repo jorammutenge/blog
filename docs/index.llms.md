@@ -10,6 +10,12 @@ Subscribe to get future posts via email (or grab the [RSS feed](./index.xml))
 
 Subscribe
 
+October 20, 2026
+
+## [New podcast episode after a long time](posts/new-podcast-episode/index.llms.md)
+
+[Read more](posts/new-podcast-episode/index.llms.md)
+
 October 15, 2026
 
 ## [Hooked on external validation](posts/hooked-on-external-validation/index.llms.md)

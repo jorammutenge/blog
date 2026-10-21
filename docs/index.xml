@@ -10,7 +10,33 @@
 <atom:link href="https://www.jorammutenge.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Writing by Joram Mutenge.</description>
 <generator>quarto-1.10.19</generator>
-<lastBuildDate>Thu, 15 Oct 2026 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 20 Oct 2026 05:00:00 GMT</lastBuildDate>
+<item>
+  <title>New podcast episode after a long time</title>
+  <link>https://www.jorammutenge.com/posts/new-podcast-episode/</link>
+  <description><![CDATA[ 
+<!-- Top-right corner: light/dark toggle (added by theme-toggle.html), then Quarto search. -->
+<div class="site-tools">
+  <div id="quarto-search" title="Search"></div>
+</div>
+
+
+
+
+<p>For those who don’t know, I have a podcast that I don’t publicise called <em>50 Things That Define Zambia</em>.</p>
+<p>Anyway, I just published a new episode after a really long break. I’m proud of this one because I put a lot of effort into it. Most of my episodes are short, running just under 10 minutes, but this one goes beyond the 10-minute mark. In fact, I’d go so far as to say it’s the longest episode I’ve ever made.</p>
+<p>You can listen to it here:</p>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/4w5GtM59TBaM5GA9wit3XP?utm_source=generator&amp;si=f01ba4de5d6e43bd" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+</iframe>
+<p>If you can’t access Spotify, simply search for <em>50 Things That Define Zambia</em> on any podcast player of your choice.</p>
+<p>So far, I’ve published 48 episodes. Just two more to go before the podcast is sunsetted.</p>
+
+
+
+ ]]></description>
+  <guid>https://www.jorammutenge.com/posts/new-podcast-episode/</guid>
+  <pubDate>Tue, 20 Oct 2026 05:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Hooked on external validation</title>
   <link>https://www.jorammutenge.com/posts/hooked-on-external-validation/</link>
@@ -774,39 +800,6 @@
  ]]></description>
   <guid>https://www.jorammutenge.com/posts/aesthetics/</guid>
   <pubDate>Sat, 12 Apr 2025 05:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>The magic of small compounding</title>
-  <link>https://www.jorammutenge.com/posts/small-compounding/</link>
-  <description><![CDATA[ 
-<!-- Top-right corner: light/dark toggle (added by theme-toggle.html), then Quarto search. -->
-<div class="site-tools">
-  <div id="quarto-search" title="Search"></div>
-</div>
-
-
-
-
-<blockquote class="blockquote">
-<p>I fear not the man who has practiced ten thousand kicks once, but I fear the man who has practiced one kick ten thousand times.</p>
-</blockquote>
-<p>I find this quote, attributed to Bruce Lee, very profound. Why? Because it touches on something incredibly powerful that most people overlook—consistency.</p>
-<p>We often do many things at once, usually with less focus and minimal attention to detail. But doing the same thing repeatedly—and refining it along the way—is challenging. Mainly because it feels boring. After all, variety is the spice of life, or so they say. But to become truly good at something, you have to do it many times. Remember:</p>
-<blockquote class="blockquote">
-<p>Repetition is the key to mastery.</p>
-</blockquote>
-<p>Doing one kick every day for ten thousand days requires discipline and consistency—and the skill and knowledge you gain compounds over time. Bruce Lee understood the value of small compounding. The skill developed from doing a little bit of something consistently over a long period is far greater than what you gain from doing it intensely over a short time.</p>
-<p>Consider reading. Most people can finish a textbook in a day, but the information retained in that one sitting will be far less than what they would retain by reading smaller sections every day over a longer period.</p>
-<p>Small changes may feel insignificant when you’re just starting, but when you look back after a long time, those changes can be remarkably significant. Never underestimate the power of small compounding. Small, incremental improvements lead to bigger outcomes in the long run. Don’t try to overdo things—instead, stay consistent with the small steps you take toward larger goals, and you’ll get far more value out of them. Remember:</p>
-<blockquote class="blockquote">
-<p>The journey of a thousand steps begins with one step, but you have to keep walking.</p>
-</blockquote>
-
-
-
- ]]></description>
-  <guid>https://www.jorammutenge.com/posts/small-compounding/</guid>
-  <pubDate>Wed, 09 Apr 2025 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
