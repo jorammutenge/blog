@@ -10,6 +10,12 @@ Subscribe to get future posts via email (or grab the [RSS feed](./index.xml))
 
 Subscribe
 
+October 28, 2026
+
+## [An age of amazing abundance](posts/amazing-abundance/index.llms.md)
+
+[Read more](posts/amazing-abundance/index.llms.md)
+
 October 20, 2026
 
 ## [New podcast episode after a long time](posts/new-podcast-episode/index.llms.md)
