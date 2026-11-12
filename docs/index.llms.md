@@ -10,6 +10,12 @@ Subscribe to get future posts via email (or grab the [RSS feed](./index.xml))
 
 Subscribe
 
+November 11, 2026
+
+## [Shopping for permission](posts/shopping-for-permission/index.llms.md)
+
+[Read more](posts/shopping-for-permission/index.llms.md)
+
 October 28, 2026
 
 ## [An age of amazing abundance](posts/amazing-abundance/index.llms.md)
