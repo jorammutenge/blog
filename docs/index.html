@@ -240,7 +240,7 @@ window.Quarto = {
 
 
 <div id="listing-posts" class="quarto-listing quarto-listing-container-custom">
-<article class="post-card" data-index="0" data-listing-date-sort="1794376800000" data-listing-file-modified-sort="1794463856548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1121">
+<article class="post-card" data-index="0" data-listing-date-sort="1794376800000" data-listing-file-modified-sort="1794530570620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1121">
   <div class="post-date">November 11, 2026</div>
   <h2 class="post-card-title"><a href="./posts/shopping-for-permission/index.html">Shopping for permission</a></h2>
   <div class="post-excerpt listing-description">
@@ -1142,6 +1142,24 @@ The TV show <em>Young Sheldon</em> is one of my favorite shows. I especially enj
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("https:\/\/www\.jorammutenge\.com");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1156,6 +1174,12 @@ The TV show <em>Young Sheldon</em> is one of my favorite shows. I especially enj
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            describeNewWindow(link);
           if (!link.classList.contains('no-external-icon')) {
           }
         }

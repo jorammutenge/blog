@@ -27,3 +27,4 @@ format:
     anchor-sections: false
     include-in-header: _includes/theme-toggle.html
     include-before-body: _includes/site-tools.html
+    link-external-newwindow: true
