@@ -500,6 +500,7 @@
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
+
 <pre class="mermaid mermaid-js">graph LR
     A("Breakup") ---|sliding pain increase| B("Unrequited love")
     
