@@ -8,6 +8,20 @@ Yesterday, I was listening to the *Modern Wisdom* podcast, particularly the epis
 
 Hearing that made me feel guilty. Why? Because it was the truth. That’s exactly what I’ve been doing. I’ve never said this publicly, but I need to come clean. For a long time, I’ve wanted to have a podcast where I interview people. One of the greatest joys in my life is having conversations with people. I love swapping stories, debating ideas, and engaging in good old banter. Yet, I never started an interview podcast. I do, however, have a solo podcast that I started way back in 2020. In it, I talk about interesting things that make my country what it is. The podcast is called *50 Things That Define Zambia*. Now that it has only one episode remaining before it comes to an end, I really need to start a podcast that allows me to interview people.
 
+![Trailer cover](https://image-cdn-fa.spotifycdn.com/image/ab67656300005f1fc49776fb825000046eba8850)
+
+[![](data:image/svg+xml;base64,PHN2ZyBkYXRhLWVuY29yZS1pZD0iaWNvbiIgcm9sZT0iaW1nIiBhcmlhLWhpZGRlbj0idHJ1ZSIgY2xhc3M9ImUtMTA2ODItaWNvbiIgc3R5bGU9Ii0tZW5jb3JlLWljb24tZmlsbDp2YXIoLS10ZXh0LWJhc2UpOy0tZW5jb3JlLWljb24taGVpZ2h0OnZhcigtLWVuY29yZS1ncmFwaGljLXNpemUtZGVjb3JhdGl2ZS1sYXJnZXIpOy0tZW5jb3JlLWljb24td2lkdGg6dmFyKC0tZW5jb3JlLWdyYXBoaWMtc2l6ZS1kZWNvcmF0aXZlLWxhcmdlcikiIHZpZXdib3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLjQzOCAxLjAwOUM2LjM2OC43NjkgMS4yNTEgNS40OTQgMS4wMDggMTEuNTY1Yy0uMjQgNi4wNyA0LjQ4NSAxMS4xODYgMTAuNTU2IDExLjQyNiA2LjA3LjI0MiAxMS4xODUtNC40ODQgMTEuNDI3LTEwLjU1NFMxOC41MDcgMS4yNTEgMTIuNDM4IDEuMDA5bTQuNjQ0IDE2LjExNGEuNjU3LjY1NyAwIDAgMS0uODk3LjI0NiAxMy4yIDEzLjIgMCAwIDAtNC43MS0xLjYwMiAxMy4yIDEzLjIgMCAwIDAtNC45NjguMjQyLjY1OC42NTggMCAwIDEtLjMxLTEuMjc4IDE0LjUgMTQuNSAwIDAgMSA1LjQ2LS4yNjVjMS44MzcuMjU3IDMuNTc5Ljg1MSA1LjE3NyAxLjc2LjMxNS4xNzguNDI1LjU4LjI0Ni44OTZ6bTEuNDQ1LTIuODg3YS44NTMuODUzIDAgMCAxLTEuMTU4LjM0NCAxNi4yIDE2LjIgMCAwIDAtNS40NzUtMS43OTcgMTYuMiAxNi4yIDAgMCAwLTUuNzU4LjIxOS44NTUuODU1IDAgMCAxLTEuMDE4LS42NS44NS44NSAwIDAgMSAuNjUtMS4wMTggMTcuOSAxNy45IDAgMCAxIDYuMzYyLS4yNDEgMTcuOSAxNy45IDAgMCAxIDYuMDQ5IDEuOTg1Yy40MTUuMjI0LjU3Ljc0My4zNDQgMS4xNTh6bTEuNjAyLTMuMjU1YTEuMDUgMS4wNSAwIDAgMS0xLjQxOC40NDggMTkuNyAxOS43IDAgMCAwLTYuMzQxLTIuMDI1IDE5LjYgMTkuNiAwIDAgMC02LjY1NS4xOTkgMS4wNSAxLjA1IDAgMSAxLS40MTctMi4wNiAyMS43IDIxLjcgMCAwIDEgNy4zNjQtLjIyIDIxLjcgMjEuNyAwIDAgMSA3LjAxOSAyLjI0Yy41MTUuMjY4LjcxNS45MDMuNDQ4IDEuNDE4IiAvPjwvc3ZnPg==)](https://open.spotify.com "Play on Spotify")
+
+# 
+
+[Trailer]()
+
+- TrailerE
+
+## 
+
+·[Origin Episode]()
+
 So, why did I feel guilty when I heard that harsh truth from Shaan? Here’s some background information to help you understand. First, you should know that I’m an avid podcast listener. I listen to many podcasts covering a wide range of topics. In my quest to become the host of an interview podcast, I first reached out to Ken Jee, host of *Ken’s Nearest Neighbors*. As a data professional, I listened to this podcast religiously. When I noticed that Ken had put it on hiatus for a long time and had started a new podcast, I reached out to him in March 2025 and asked if I could take over as the new host of *Ken’s Nearest Neighbors*. Surprisingly, he replied that same day. He said he hadn’t abandoned the project and added that he would be uploading new episodes in about three to five months.
 
 As a loyal listener, I continued checking Ken’s podcast feed, but no new episodes appeared. So, in November 2025, I contacted him again, asking him to take the project off his plate and allow me to become the new host. This time, there was no reply. Then, in April 2026, I reached out once more, practically begging him to let me take over. Still, nothing. Finally, in September 2026, I sent my last message, pleading with Ken to hand me the keys to his seemingly abandoned podcast. He never replied, and he hasn’t uploaded a new episode since October 2024.
